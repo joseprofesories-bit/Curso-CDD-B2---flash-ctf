@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ode><userPreferences><userPreference><key>theme</key><value>base</value></userPreference></userPreferences><odeResources><odeResource><key>odeVersionId</key><value>20260408140737IRPWZY</value></odeResource><odeResource><key>odeId</key><value>20260408082755YEMAFQ</value></odeResource><odeResource><key>odeVersionName</key><value>0</value></odeResource><odeResource><key>isDownload</key><value>true</value></odeResource><odeResource><key>eXeVersion</key><value>v3.0.2</value></odeResource></odeResources><odeProperties><odeProperty><key>pp_title</key><value>Proyecto Flash_CTF</value></odeProperty><odeProperty><key>pp_subtitle</key><value>Proyecto curso CDD B2</value></odeProperty><odeProperty><key>pp_lang</key><value>es</value></odeProperty><odeProperty><key>pp_author</key><value>José Carmelo Maturana Espinosa</value></odeProperty><odeProperty><key>license</key><value>creative commons: attribution - share alike 4.0</value></odeProperty><odeProperty><key>pp_description</key><value>Situación de Aprendizaje (SdA) basada en un entorno de entrenamiento técnico tipo Capture The Flag (CTF).
+El alumnado realiza una auditoría de seguridad sobre Metasploitable 2, cubriendo escaneo de servicios, explotación ética y fortificación (Hardening).
+Finaliza con documentación técnica en GitHub.</value></odeProperty><odeProperty><key>exportSource</key><value>true</value></odeProperty><odeProperty><key>pp_addExeLink</key><value>true</value></odeProperty><odeProperty><key>pp_addPagination</key><value>false</value></odeProperty><odeProperty><key>pp_addSearchBox</key><value>false</value></odeProperty><odeProperty><key>pp_addAccessibilityToolbar</key><value>true</value></odeProperty><odeProperty><key>pp_extraHeadContent</key><value>&lt;meta name="author" content="José Carmelo Maturana"&gt;
+&lt;meta name="description" content="Flash-CTF: El Laberinto de Metasploitable - Situación de Aprendizaje para 2º de ASIR sobre Hacking Ético y Seguridad."&gt;
+&lt;meta name="keywords" content="ASIR, Seguridad Informática, CTF, Metasploitable, GitHub, Educación"&gt;
+
+&lt;link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"&gt;
+
+&lt;style&gt;
+    /* Aplicar la fuente Inter al cuerpo y Roboto Mono a los códigos */
+    body { font-family: 'Inter', sans-serif !important; }
+    code, pre { font-family: 'Roboto Mono', monospace !important; }
+    
+    /* Pequeña mejora visual: selección de texto en color corporativo */
+    ::selection { background: #3498db; color: white; }
+&lt;/style&gt;</value></odeProperty><odeProperty><key>footer</key><value>&lt;div style="border-top: 1px solid #ccc; padding-top: 15px; margin-top: 20px; text-align: center; font-family: 'Inter', sans-serif; font-size: 0.85em; color: #666;"&gt;
+    &lt;p&gt;
+        &lt;strong&gt;Flash-CTF: El Laberinto de Metasploitable&lt;/strong&gt;&lt;br&gt;
+        Recurso Educativo Abierto diseñado para el Módulo de Seguridad y Alta Disponibilidad (2º ASIR).
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" alt="Licencia Creative Commons" style="height: 25px; vertical-align: middle; margin-bottom: 5px;"&gt;&lt;br&gt;
+        Esta obra está bajo una licencia 
+        &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank" rel="noopener" style="color: #0366d6; text-decoration: none;"&gt;
+            Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)
+        &lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p style="font-size: 0.8em;"&gt;© 2024 - José Carmelo Maturana&lt;/p&gt;
+&lt;/div&gt;</value></odeProperty></odeProperties><odeNavStructures><odeNavStructure><odePageId>20260408140738GSLMEL</odePageId><odeParentPageId/><pageName>Guía didáctica</pageName><odeNavStructureOrder>1</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>Guía didáctica</value></odeNavStructureProperty><odeNavStructureProperty><key>hidePageTitle</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>Guía didáctica</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>highlight</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260408140738GSLMEL</odePageId><odeBlockId>20260408140738CWLTWZ</odeBlockId><blockName>Guía didáctica</blockName><iconName/><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260408140738GSLMEL</odePageId><odeBlockId>20260408140738CWLTWZ</odeBlockId><odeIdeviceId>20260401234222989MUV</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;style&gt;
+    .index-asir-container {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #ffffff;
+        border: 1px solid #d1d9e0;
+        border-radius: 10px;
+        margin: 20px 0;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    .index-header {
+        background: #24292e;
+        color: #ffffff;
+        padding: 25px;
+        text-align: center;
+    }
+    .index-header h2 {
+        margin: 0;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    .index-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .index-item {
+        display: flex;
+        align-items: flex-start;
+        padding: 20px;
+        border-bottom: 1px solid #f0f2f5;
+        transition: background 0.3s;
+    }
+    .index-item:hover {
+        background-color: #fcfcfc;
+    }
+    .task-number {
+        background: #0366d6;
+        color: white;
+        min-width: 40px;
+        height: 40px;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+    .task-content {
+        flex-grow: 1;
+    }
+    .task-title {
+        display: block;
+        font-size: 1.1em;
+        color: #1a3a5a;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .task-description {
+        display: block;
+        font-size: 0.95em;
+        color: #57606a;
+        line-height: 1.4;
+    }
+    .task-badge {
+        display: inline-block;
+        font-family: monospace;
+        background: #eff6ff;
+        color: #0366d6;
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-size: 0.8em;
+        margin-top: 8px;
+        border: 1px solid #dbeafe;
+    }
+    .creditos-item {
+        background-color: #f6f8fa;
+        border-top: 2px solid #d1d9e0;
+    }
+    .creditos-item .task-number {
+        background: #57606a;
+    }
+&lt;/style&gt;
+&lt;div class="index-asir-container"&gt;
+&lt;div class="index-header"&gt;
+&lt;h2&gt;Índice de Contenidos&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="index-list"&gt;
+&lt;div class="index-item"&gt;
+&lt;div class="task-number"&gt;01&lt;/div&gt;
+&lt;div class="task-content"&gt;&lt;span class="task-title"&gt;Presentación y descripción del proyecto&lt;/span&gt; &lt;span class="task-description"&gt;Definición de los objetivos generales, contexto educativo en 2º de ASIR y planteamiento del reto de hacking ético.&lt;/span&gt;
+&lt;div class="task-badge"&gt;Tarea 2.1&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="index-item"&gt;
+&lt;div class="task-number"&gt;02&lt;/div&gt;
+&lt;div class="task-content"&gt;&lt;span class="task-title"&gt;Protección de datos y garantías digitales&lt;/span&gt; &lt;span class="task-description"&gt;Marco legal aplicado al proyecto, asegurando el cumplimiento de la LOPDGDD y el uso ético de herramientas de auditoría.&lt;/span&gt;
+&lt;div class="task-badge"&gt;Tarea 2.3&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="index-item"&gt;
+&lt;div class="task-number"&gt;03&lt;/div&gt;
+&lt;div class="task-content"&gt;&lt;span class="task-title"&gt;Descripción del producto final&lt;/span&gt; &lt;span class="task-description"&gt;Detalles sobre la entrega final: un repositorio técnico en GitHub documentado mediante lenguaje Markdown.&lt;/span&gt;
+&lt;div class="task-badge"&gt;Tarea 4.1&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="index-item"&gt;
+&lt;div class="task-number"&gt;04&lt;/div&gt;
+&lt;div class="task-content"&gt;&lt;span class="task-title"&gt;Herramientas de curación de contenidos&lt;/span&gt; &lt;span class="task-description"&gt;Repositorio de recursos seleccionados y validados tanto para el soporte docente como para la investigación del alumnado.&lt;/span&gt;
+&lt;div class="task-badge"&gt;Tarea 5.1&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="index-item"&gt;
+&lt;div class="task-number"&gt;05&lt;/div&gt;
+&lt;div class="task-content"&gt;&lt;span class="task-title"&gt;Línea temporal del proyecto&lt;/span&gt; &lt;span class="task-description"&gt;Cronograma detallado de las actividades, sesiones de laboratorio y fases de explotación de servicios.&lt;/span&gt;
+&lt;div class="task-badge"&gt;Tarea 7.1&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="index-item"&gt;
+&lt;div class="task-number"&gt;06&lt;/div&gt;
+&lt;div class="task-content"&gt;&lt;span class="task-title"&gt;Criterios de evaluación&lt;/span&gt; &lt;span class="task-description"&gt;Vinculación de las actividades con los resultados de aprendizaje y criterios de evaluación del currículo de ASIR.&lt;/span&gt;
+&lt;div class="task-badge"&gt;Tarea 6.1&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="index-item"&gt;
+&lt;div class="task-number"&gt;07&lt;/div&gt;
+&lt;div class="task-content"&gt;&lt;span class="task-title"&gt;Instrumentos de evaluación&lt;/span&gt; &lt;span class="task-description"&gt;Rúbricas y herramientas de calificación utilizadas para evaluar el desempeño técnico y la documentación entregada.&lt;/span&gt;
+&lt;div class="task-badge"&gt;Tarea 8.1&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="index-item creditos-item"&gt;
+&lt;div class="task-number"&gt;C&lt;/div&gt;
+&lt;div class="task-content"&gt;&lt;span class="task-title"&gt;Créditos&lt;/span&gt; &lt;span class="task-description"&gt;Autoría del recurso, licencias de uso (CC BY-SA) y referencias a las fuentes bibliográficas y herramientas utilizadas.&lt;/span&gt;
+&lt;div class="task-badge"&gt;Información Legal&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20260401234222989MUV","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;style&gt;\n    .index-asir-container {\n        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n        background-color: #ffffff;\n        border: 1px solid #d1d9e0;\n        border-radius: 10px;\n        margin: 20px 0;\n        overflow: hidden;\n        box-shadow: 0 4px 12px rgba(0,0,0,0.08);\n    }\n    .index-header {\n        background: #24292e;\n        color: #ffffff;\n        padding: 25px;\n        text-align: center;\n    }\n    .index-header h2 {\n        margin: 0;\n        font-size: 1.5em;\n        text-transform: uppercase;\n        letter-spacing: 2px;\n    }\n    .index-list {\n        list-style: none;\n        padding: 0;\n        margin: 0;\n    }\n    .index-item {\n        display: flex;\n        align-items: flex-start;\n        padding: 20px;\n        border-bottom: 1px solid #f0f2f5;\n        transition: background 0.3s;\n    }\n    .index-item:hover {\n        background-color: #fcfcfc;\n    }\n    .task-number {\n        background: #0366d6;\n        color: white;\n        min-width: 40px;\n        height: 40px;\n        border-radius: 6px;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        font-weight: bold;\n        margin-right: 20px;\n        margin-top: 5px;\n    }\n    .task-content {\n        flex-grow: 1;\n    }\n    .task-title {\n        display: block;\n        font-size: 1.1em;\n        color: #1a3a5a;\n        font-weight: bold;\n        margin-bottom: 5px;\n    }\n    .task-description {\n        display: block;\n        font-size: 0.95em;\n        color: #57606a;\n        line-height: 1.4;\n    }\n    .task-badge {\n        display: inline-block;\n        font-family: monospace;\n        background: #eff6ff;\n        color: #0366d6;\n        padding: 2px 8px;\n        border-radius: 4px;\n        font-size: 0.8em;\n        margin-top: 8px;\n        border: 1px solid #dbeafe;\n    }\n    .creditos-item {\n        background-color: #f6f8fa;\n        border-top: 2px solid #d1d9e0;\n    }\n    .creditos-item .task-number {\n        background: #57606a;\n    }\n&lt;/style&gt;\n&lt;div class=\"index-asir-container\"&gt;\n&lt;div class=\"index-header\"&gt;\n&lt;h2&gt;Índice de Contenidos&lt;/h2&gt;\n&lt;/div&gt;\n&lt;div class=\"index-list\"&gt;\n&lt;div class=\"index-item\"&gt;\n&lt;div class=\"task-number\"&gt;01&lt;/div&gt;\n&lt;div class=\"task-content\"&gt;&lt;span class=\"task-title\"&gt;Presentación y descripción del proyecto&lt;/span&gt; &lt;span class=\"task-description\"&gt;Definición de los objetivos generales, contexto educativo en 2º de ASIR y planteamiento del reto de hacking ético.&lt;/span&gt;\n&lt;div class=\"task-badge\"&gt;Tarea 2.1&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"index-item\"&gt;\n&lt;div class=\"task-number\"&gt;02&lt;/div&gt;\n&lt;div class=\"task-content\"&gt;&lt;span class=\"task-title\"&gt;Protección de datos y garantías digitales&lt;/span&gt; &lt;span class=\"task-description\"&gt;Marco legal aplicado al proyecto, asegurando el cumplimiento de la LOPDGDD y el uso ético de herramientas de auditoría.&lt;/span&gt;\n&lt;div class=\"task-badge\"&gt;Tarea 2.3&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"index-item\"&gt;\n&lt;div class=\"task-number\"&gt;03&lt;/div&gt;\n&lt;div class=\"task-content\"&gt;&lt;span class=\"task-title\"&gt;Descripción del producto final&lt;/span&gt; &lt;span class=\"task-description\"&gt;Detalles sobre la entrega final: un repositorio técnico en GitHub documentado mediante lenguaje Markdown.&lt;/span&gt;\n&lt;div class=\"task-badge\"&gt;Tarea 4.1&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"index-item\"&gt;\n&lt;div class=\"task-number\"&gt;04&lt;/div&gt;\n&lt;div class=\"task-content\"&gt;&lt;span class=\"task-title\"&gt;Herramientas de curación de contenidos&lt;/span&gt; &lt;span class=\"task-description\"&gt;Repositorio de recursos seleccionados y validados tanto para el soporte docente como para la investigación del alumnado.&lt;/span&gt;\n&lt;div class=\"task-badge\"&gt;Tarea 5.1&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"index-item\"&gt;\n&lt;div class=\"task-number\"&gt;05&lt;/div&gt;\n&lt;div class=\"task-content\"&gt;&lt;span class=\"task-title\"&gt;Línea temporal del proyecto&lt;/span&gt; &lt;span class=\"task-description\"&gt;Cronograma detallado de las actividades, sesiones de laboratorio y fases de explotación de servicios.&lt;/span&gt;\n&lt;div class=\"task-badge\"&gt;Tarea 7.1&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"index-item\"&gt;\n&lt;div class=\"task-number\"&gt;06&lt;/div&gt;\n&lt;div class=\"task-content\"&gt;&lt;span class=\"task-title\"&gt;Criterios de evaluación&lt;/span&gt; &lt;span class=\"task-description\"&gt;Vinculación de las actividades con los resultados de aprendizaje y criterios de evaluación del currículo de ASIR.&lt;/span&gt;\n&lt;div class=\"task-badge\"&gt;Tarea 6.1&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"index-item\"&gt;\n&lt;div class=\"task-number\"&gt;07&lt;/div&gt;\n&lt;div class=\"task-content\"&gt;&lt;span class=\"task-title\"&gt;Instrumentos de evaluación&lt;/span&gt; &lt;span class=\"task-description\"&gt;Rúbricas y herramientas de calificación utilizadas para evaluar el desempeño técnico y la documentación entregada.&lt;/span&gt;\n&lt;div class=\"task-badge\"&gt;Tarea 8.1&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"index-item creditos-item\"&gt;\n&lt;div class=\"task-number\"&gt;C&lt;/div&gt;\n&lt;div class=\"task-content\"&gt;&lt;span class=\"task-title\"&gt;Créditos&lt;/span&gt; &lt;span class=\"task-description\"&gt;Autoría del recurso, licencias de uso (CC BY-SA) y referencias a las fuentes bibliográficas y herramientas utilizadas.&lt;/span&gt;\n&lt;div class=\"task-badge\"&gt;Información Legal&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20260408140738NYAFYN</odePageId><odeParentPageId/><pageName>1. Presentación (2.1)</pageName><odeNavStructureOrder>2</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>1. Presentación (2.1)</value></odeNavStructureProperty><odeNavStructureProperty><key>hidePageTitle</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>1. Presentación (2.1)</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>highlight</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260408140738NYAFYN</odePageId><odeBlockId>20260408140738BQNLGZ</odeBlockId><blockName>Presentación y descripción del proyecto (Tarea 2.1)</blockName><iconName/><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260408140738NYAFYN</odePageId><odeBlockId>20260408140738BQNLGZ</odeBlockId><odeIdeviceId>20260329190516707M1I</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;
+            &lt;dl&gt;
+                &lt;div class="inline"&gt;&lt;dt&gt;&lt;span title="Diseño del proyecto"&gt;Diseño del proyecto&lt;/span&gt;&lt;/dt&gt;&lt;dd&gt;3 horas&lt;/dd&gt;&lt;/div&gt;
+                &lt;div class="inline"&gt;&lt;dt&gt;&lt;span title="Presentación del proyecto"&gt;Presentación del proyecto&lt;/span&gt;&lt;/dt&gt;&lt;dd&gt;Toda la clase en conjunto&lt;/dd&gt;&lt;/div&gt;
+            &lt;/dl&gt;&lt;style&gt;
+    .diseno-proyecto-container {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+        line-height: 1.6;
+        background-color: #ffffff;
+        border: 1px solid #e1e4e8;
+        border-radius: 8px;
+        margin: 20px 0;
+        overflow: hidden;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .dp-header {
+        background-color: #1a3a5a;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+    }
+    .dp-header h2 {
+        margin: 0;
+        font-size: 1.8em;
+        letter-spacing: 1px;
+    }
+    .dp-section {
+        padding: 20px 25px;
+        border-bottom: 1px solid #edf0f2;
+    }
+    .dp-section:last-child {
+        border-bottom: none;
+    }
+    .dp-title {
+        color: #1a3a5a;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 0.9em;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .dp-title::before {
+        content: "■";
+        margin-right: 8px;
+        color: #3498db;
+    }
+    .dp-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 6px;
+    }
+    .dp-grid-item b {
+        color: #2c3e50;
+        display: block;
+        font-size: 0.85em;
+        text-transform: uppercase;
+    }
+    .dp-description {
+        background-color: #e8f4fd;
+        border-left: 4px solid #3498db;
+        padding: 15px;
+        margin-top: 10px;
+    }
+    .dp-justificación-box {
+        margin-top: 15px;
+    }
+    .indicator-tag {
+        display: inline-block;
+        background-color: #e1f5fe;
+        color: #0277bd;
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-size: 0.85em;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .dp-resource-link {
+        color: #2980b9;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .dp-resource-link:hover {
+        text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+        .dp-grid { grid-template-columns: 1fr; }
+    }
+&lt;/style&gt;
+&lt;div class="diseno-proyecto-container"&gt;
+&lt;div class="dp-header"&gt;
+&lt;h2&gt;Diseño del Proyecto&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="dp-section"&gt;
+&lt;div class="dp-grid"&gt;
+&lt;div class="dp-grid-item"&gt;&lt;b&gt;Título&lt;/b&gt; "Flash-CTF: El Laberinto de Metasploitable"&lt;/div&gt;
+&lt;div class="dp-grid-item"&gt;&lt;b&gt;Temática&lt;/b&gt; Auditoría de red y explotación de vulnerabilidades (Hacking Ético)&lt;/div&gt;
+&lt;div class="dp-grid-item"&gt;&lt;b&gt;Nivel&lt;/b&gt; 2º curso CFGS ASIR&lt;/div&gt;
+&lt;div class="dp-grid-item"&gt;&lt;b&gt;Temporalización&lt;/b&gt; 3h lectivas&lt;/div&gt;
+&lt;div class="dp-grid-item"&gt;&lt;b&gt;Materia&lt;/b&gt; Seguridad y Alta Disponibilidad&lt;/div&gt;
+&lt;div class="dp-grid-item"&gt;&lt;b&gt;Idioma&lt;/b&gt; Castellano (Comandos en Inglés técnico)&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="dp-section"&gt;
+&lt;div class="dp-title"&gt;Descripción General&lt;/div&gt;
+&lt;p&gt;Los alumnos, agrupados en equipos, deben auditar un sistema dado. El reto consiste en:&lt;/p&gt;
+&lt;div class="dp-description"&gt;
+&lt;ul&gt;
+&lt;li&gt;Realizar un escaneo de puertos (&lt;strong&gt;nmap&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;Identificar servicios con vulnerabilidades críticas (vsftpd, UnrealIRCD, etc.).&lt;/li&gt;
+&lt;li&gt;Obtener acceso &lt;strong&gt;root&lt;/strong&gt; y documentar al menos 3 vectores de entrada.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p style="margin-top: 15px;"&gt;&lt;strong&gt;Recursos:&lt;/strong&gt; Metasploitable 2. &lt;a href="https://sourceforge.net/projects/metasploitable/files/Metasploitable2/" target="_blank" rel="noopener"&gt;Disponible en el repositorio oficial de Rapid7 en SourceForge (Licencia BSD / Open Source).&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="dp-section"&gt;
+&lt;div class="dp-title"&gt;Justificación del Proyecto&lt;/div&gt;
+&lt;p&gt;Metasploitable 2 ofrece un abanico de servicios vulnerables (Web, BD, FTP, SSH) que garantiza el éxito del aprendizaje para todos los niveles de competencia en el aula.&lt;/p&gt;
+&lt;div class="dp-justificación-box"&gt;&lt;strong&gt;Intensidad y Motivación&lt;/strong&gt;
+&lt;p&gt;El formato intensivo de 3 horas simula la celeridad real de una incidencia de seguridad o auditoría externa, evitando la dispersión y manteniendo el "enganche" del alumnado.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="dp-justificación-box"&gt;&lt;span class="indicator-tag"&gt;Gestión de la incertidumbre pedagógica&lt;/span&gt;&amp;nbsp;
+&lt;p&gt;Al usar una infraestructura estándar probada previamente, garantizamos que la incertidumbre sea puramente pedagógica y productiva, eliminando ruidos por fallos técnicos ajenos al reto.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="dp-justificación-box"&gt;&lt;span class="indicator-tag"&gt;Gestión del bloqueo y tutoría entre pares&lt;/span&gt;&amp;nbsp;
+&lt;p&gt;Se fomenta que los equipos avanzados actúen como mentores, ofreciendo pistas verbales. Esto transforma el aula en una unidad de inteligencia colectiva y consolida el conocimiento de los "mentores".&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="dp-justificación-box"&gt;&lt;span class="indicator-tag"&gt;Creación y adaptación de contenidos&lt;/span&gt;
+&lt;p&gt;Adaptación de herramientas profesionales al contexto educativo de ASIR: no es solo "hackear", sino comprender la arquitectura de servicios detrás de cada vulnerabilidad.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20260329190516707M1I","textInfoDurationInput":"3 horas","textInfoDurationTextInput":"Diseño del proyecto","textInfoParticipantsInput":"Toda la clase en conjunto","textInfoParticipantsTextInput":"Presentación del proyecto","textTextarea":"&lt;style&gt;\n    .diseno-proyecto-container {\n        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n        color: #333;\n        line-height: 1.6;\n        background-color: #ffffff;\n        border: 1px solid #e1e4e8;\n        border-radius: 8px;\n        margin: 20px 0;\n        overflow: hidden;\n        box-shadow: 0 2px 5px rgba(0,0,0,0.1);\n    }\n    .dp-header {\n        background-color: #1a3a5a;\n        color: #ffffff;\n        padding: 20px;\n        text-align: center;\n    }\n    .dp-header h2 {\n        margin: 0;\n        font-size: 1.8em;\n        letter-spacing: 1px;\n    }\n    .dp-section {\n        padding: 20px 25px;\n        border-bottom: 1px solid #edf0f2;\n    }\n    .dp-section:last-child {\n        border-bottom: none;\n    }\n    .dp-title {\n        color: #1a3a5a;\n        font-weight: bold;\n        text-transform: uppercase;\n        font-size: 0.9em;\n        margin-bottom: 10px;\n        display: flex;\n        align-items: center;\n    }\n    .dp-title::before {\n        content: \"■\";\n        margin-right: 8px;\n        color: #3498db;\n    }\n    .dp-grid {\n        display: grid;\n        grid-template-columns: 1fr 1fr;\n        gap: 15px;\n        background-color: #f8f9fa;\n        padding: 15px;\n        border-radius: 6px;\n    }\n    .dp-grid-item b {\n        color: #2c3e50;\n        display: block;\n        font-size: 0.85em;\n        text-transform: uppercase;\n    }\n    .dp-description {\n        background-color: #e8f4fd;\n        border-left: 4px solid #3498db;\n        padding: 15px;\n        margin-top: 10px;\n    }\n    .dp-justificación-box {\n        margin-top: 15px;\n    }\n    .indicator-tag {\n        display: inline-block;\n        background-color: #e1f5fe;\n        color: #0277bd;\n        padding: 2px 8px;\n        border-radius: 4px;\n        font-size: 0.85em;\n        font-weight: bold;\n        margin-bottom: 5px;\n    }\n    .dp-resource-link {\n        color: #2980b9;\n        text-decoration: none;\n        font-weight: bold;\n    }\n    .dp-resource-link:hover {\n        text-decoration: underline;\n    }\n    @media (max-width: 600px) {\n        .dp-grid { grid-template-columns: 1fr; }\n    }\n&lt;/style&gt;\n&lt;div class=\"diseno-proyecto-container\"&gt;\n&lt;div class=\"dp-header\"&gt;\n&lt;h2&gt;Diseño del Proyecto&lt;/h2&gt;\n&lt;/div&gt;\n&lt;div class=\"dp-section\"&gt;\n&lt;div class=\"dp-grid\"&gt;\n&lt;div class=\"dp-grid-item\"&gt;&lt;b&gt;Título&lt;/b&gt; \"Flash-CTF: El Laberinto de Metasploitable\"&lt;/div&gt;\n&lt;div class=\"dp-grid-item\"&gt;&lt;b&gt;Temática&lt;/b&gt; Auditoría de red y explotación de vulnerabilidades (Hacking Ético)&lt;/div&gt;\n&lt;div class=\"dp-grid-item\"&gt;&lt;b&gt;Nivel&lt;/b&gt; 2º curso CFGS ASIR&lt;/div&gt;\n&lt;div class=\"dp-grid-item\"&gt;&lt;b&gt;Temporalización&lt;/b&gt; 3h lectivas&lt;/div&gt;\n&lt;div class=\"dp-grid-item\"&gt;&lt;b&gt;Materia&lt;/b&gt; Seguridad y Alta Disponibilidad&lt;/div&gt;\n&lt;div class=\"dp-grid-item\"&gt;&lt;b&gt;Idioma&lt;/b&gt; Castellano (Comandos en Inglés técnico)&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"dp-section\"&gt;\n&lt;div class=\"dp-title\"&gt;Descripción General&lt;/div&gt;\n&lt;p&gt;Los alumnos, agrupados en equipos, deben auditar un sistema dado. El reto consiste en:&lt;/p&gt;\n&lt;div class=\"dp-description\"&gt;\n&lt;ul&gt;\n&lt;li&gt;Realizar un escaneo de puertos (&lt;strong&gt;nmap&lt;/strong&gt;).&lt;/li&gt;\n&lt;li&gt;Identificar servicios con vulnerabilidades críticas (vsftpd, UnrealIRCD, etc.).&lt;/li&gt;\n&lt;li&gt;Obtener acceso &lt;strong&gt;root&lt;/strong&gt; y documentar al menos 3 vectores de entrada.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;p style=\"margin-top: 15px;\"&gt;&lt;strong&gt;Recursos:&lt;/strong&gt; Metasploitable 2. &lt;a href=\"https://sourceforge.net/projects/metasploitable/files/Metasploitable2/\" target=\"_blank\" rel=\"noopener\"&gt;Disponible en el repositorio oficial de Rapid7 en SourceForge (Licencia BSD / Open Source).&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"dp-section\"&gt;\n&lt;div class=\"dp-title\"&gt;Justificación del Proyecto&lt;/div&gt;\n&lt;p&gt;Metasploitable 2 ofrece un abanico de servicios vulnerables (Web, BD, FTP, SSH) que garantiza el éxito del aprendizaje para todos los niveles de competencia en el aula.&lt;/p&gt;\n&lt;div class=\"dp-justificación-box\"&gt;&lt;strong&gt;Intensidad y Motivación&lt;/strong&gt;\n&lt;p&gt;El formato intensivo de 3 horas simula la celeridad real de una incidencia de seguridad o auditoría externa, evitando la dispersión y manteniendo el \"enganche\" del alumnado.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"dp-justificación-box\"&gt;&lt;span class=\"indicator-tag\"&gt;Gestión de la incertidumbre pedagógica&lt;/span&gt; \n&lt;p&gt;Al usar una infraestructura estándar probada previamente, garantizamos que la incertidumbre sea puramente pedagógica y productiva, eliminando ruidos por fallos técnicos ajenos al reto.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"dp-justificación-box\"&gt;&lt;span class=\"indicator-tag\"&gt;Gestión del bloqueo y tutoría entre pares&lt;/span&gt; \n&lt;p&gt;Se fomenta que los equipos avanzados actúen como mentores, ofreciendo pistas verbales. Esto transforma el aula en una unidad de inteligencia colectiva y consolida el conocimiento de los \"mentores\".&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"dp-justificación-box\"&gt;&lt;span class=\"indicator-tag\"&gt;Creación y adaptación de contenidos&lt;/span&gt;\n&lt;p&gt;Adaptación de herramientas profesionales al contexto educativo de ASIR: no es solo \"hackear\", sino comprender la arquitectura de servicios detrás de cada vulnerabilidad.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20260408140738BMQORO</odePageId><odeParentPageId/><pageName>2. LOPDGDD (2.3)</pageName><odeNavStructureOrder>3</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>2. LOPDGDD (2.3)</value></odeNavStructureProperty><odeNavStructureProperty><key>hidePageTitle</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>2. LOPDGDD (2.3)</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>highlight</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260408140738BMQORO</odePageId><odeBlockId>20260408140738YIAQBI</odeBlockId><blockName>Información dirigida al alumnado sobre protección de datos personales y garantías de derechos digitales (Tarea 2.3)</blockName><iconName/><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260408140738BMQORO</odePageId><odeBlockId>20260408140738YIAQBI</odeBlockId><odeIdeviceId>202603311242220166QD</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;strong&gt;Ley Orgánica 3/2018, de 5 de diciembre, de "Protección de Datos Personales y garantía de los derechos digitales".&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Es la ley española que adapta nuestro sistema al RGPD (Reglamento General de Protección de Datos) de la Unión Europea. Es la normativa clave que los alumnos deben conocer para manejar los datos de la auditoría respetando la privacidad.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;embed width="1200" height="600" src="{{context_path}}/202603311242220166QD/2.3_Licencias_1.pdf" type="application/pdf"&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"202603311242220166QD","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;p&gt;&lt;strong&gt;Ley Orgánica 3/2018, de 5 de diciembre, de \"Protección de Datos Personales y garantía de los derechos digitales\".&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Es la ley española que adapta nuestro sistema al RGPD (Reglamento General de Protección de Datos) de la Unión Europea. Es la normativa clave que los alumnos deben conocer para manejar los datos de la auditoría respetando la privacidad.&lt;/p&gt;\n&lt;p&gt; &lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;embed width=\"1200\" height=\"600\" src=\"{{context_path}}/202603311242220166QD/2.3_Licencias_1.pdf\" type=\"application/pdf\"&gt;&lt;/embed&gt;&lt;/strong&gt;&lt;/p&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20260408140738FRUHOF</odePageId><odeParentPageId/><pageName>3. Descripción del producto final (4.1)</pageName><odeNavStructureOrder>4</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>3. Descripción del producto final (4.1)</value></odeNavStructureProperty><odeNavStructureProperty><key>hidePageTitle</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>3. Descripción del producto final (4.1)</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>highlight</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260408140738FRUHOF</odePageId><odeBlockId>20260408140738AAAMXR</odeBlockId><blockName>Descripción del producto final que deberá elaborar el alumnado (Tarea 4.1)</blockName><iconName/><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260408140738FRUHOF</odePageId><odeBlockId>20260408140738AAAMXR</odeBlockId><odeIdeviceId>20260401235949425SGT</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;style&gt;
+    .flash-ctf-container {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background-color: #f4f7f9;
+        border: 1px solid #d1d9e0;
+        border-radius: 8px;
+        padding: 25px;
+        color: #24292e;
+        margin: 15px 0;
+    }
+    .header-box {
+        background-color: #24292e;
+        color: #ffffff;
+        padding: 15px;
+        border-radius: 6px 6px 0 0;
+        margin: -25px -25px 20px -25px;
+        text-align: center;
+    }
+    .header-box h2 {
+        margin: 0;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .intro-text {
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+    .badge {
+        background-color: #0366d6;
+        color: white;
+        padding: 3px 8px;
+        border-radius: 4px;
+        font-family: monospace;
+        font-weight: bold;
+    }
+    .grid-reasons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .reason-card {
+        background: #ffffff;
+        border: 1px solid #e1e4e8;
+        padding: 15px;
+        border-radius: 6px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .reason-card h4 {
+        margin-top: 0;
+        color: #0366d6;
+        border-bottom: 1px solid #eaecef;
+        padding-bottom: 5px;
+    }
+    .footer-note {
+        margin-top: 25px;
+        padding: 10px;
+        border-top: 1px dashed #444d56;
+        font-style: italic;
+        text-align: center;
+        color: #586069;
+    }
+    @media (max-width: 600px) {
+        .grid-reasons { grid-template-columns: 1fr; }
+    }
+&lt;/style&gt;
+&lt;div class="flash-ctf-container"&gt;
+&lt;div class="header-box"&gt;
+&lt;h2&gt;Documentación técnica con GitHub&lt;/h2&gt;
+&lt;/div&gt;
+&lt;p class="intro-text"&gt;Bienvenido a tu nueva misión, si decides aceptarla..&lt;/p&gt;
+&lt;p&gt;Para el producto final de nuestro proyecto &lt;strong&gt;"Flash-CTF: El Laberinto de Metasploitable"&lt;/strong&gt;, vamos a estandarizar la entrega de documentación utilizando la plataforma &lt;a href="https://github.com/"&gt;&lt;span class="badge" id="link_1"&gt;GitHub&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="recurso-card"&gt;
+&lt;div class="recurso-main"&gt;
+&lt;div class="recurso-info"&gt;&lt;strong&gt;Plataforma de Despliegue: GitHub Pages&lt;/strong&gt;&lt;br&gt;&lt;a href="https://github.com" class="recurso-link" target="_blank" rel="noopener"&gt;[Web Oficial]&lt;/a&gt;&lt;/div&gt;
+&lt;span class="licencia-tag" style="background-color: #f1f8ff; color: #0550ae; border: 1px solid #0550ae;"&gt;Copyright © GitHub Inc.&lt;/span&gt;&lt;/div&gt;
+&lt;div class="atribucion-box" style="margin-top: 10px; font-size: 0.85em; background: #f6f8fa; padding: 10px; border-left: 3px solid #24292f;"&gt;&lt;strong&gt;Atribución:&lt;/strong&gt; Servicio de hosting y control de versiones provisto por GitHub, Inc. El uso en este proyecto se acoge a los &lt;em&gt;Terms of Service&lt;/em&gt; de la plataforma para fines educativos y de difusión de Recursos Educativos Abiertos (REA).&lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;Cada grupo deberá crear un repositorio público o privado (con acceso para el profesor) donde se documenten, empleando lenguaje &lt;strong&gt;Markdown&lt;/strong&gt;, los vectores de ataque identificados, las evidencias gráficas de la intrusión y el código fuente de los scripts de fortificación desarrollados durante las sesiones.&lt;/p&gt;
+&lt;h3&gt;¿Por qué hacerlo así es valioso?&lt;/h3&gt;
+&lt;div class="grid-reasons"&gt;
+&lt;div class="reason-card"&gt;
+&lt;h4&gt;Profesionalización&lt;/h4&gt;
+&lt;p&gt;En el sector de la ciberseguridad y la administración de sistemas, el control de versiones con Git es un estándar crítico. El objetivo es que el resultado no sea un simple PDF estático, sino un recurso digital vivo que forme parte de vuestro portafolio profesional.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="reason-card"&gt;
+&lt;h4&gt;Versatilidad y Entorno&lt;/h4&gt;
+&lt;p&gt;Al ser una solución basada en web, eliminamos dependencias de hardware específico. Solo se requiere un navegador y acceso a red, integrándose perfectamente con la configuración de nuestros laboratorios locales.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="reason-card"&gt;
+&lt;h4&gt;Competencia Técnica&lt;/h4&gt;
+&lt;p&gt;Como alumnos de 2º de ASIR, ya domináis la interfaz de comandos y la gestión de sistemas. El uso de repositorios es el paso lógico para consolidar vuestra competencia digital avanzada.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="reason-card"&gt;
+&lt;h4&gt;Accesibilidad y Trabajo en Red&lt;/h4&gt;
+&lt;p&gt;GitHub facilita el flujo colaborativo asíncrono. Permite que cada miembro del equipo contribuya según sus fortalezas y garantiza que el trabajo sea accesible desde cualquier ubicación si necesitáis complementar el tiempo de taller.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="footer-note"&gt;Recordad que la calidad de la documentación técnica es tan importante como el éxito del exploit.&lt;/div&gt;
+&lt;/div&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20260401235949425SGT","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;style&gt;\n    .flash-ctf-container {\n        font-family: 'Segoe UI', Arial, sans-serif;\n        background-color: #f4f7f9;\n        border: 1px solid #d1d9e0;\n        border-radius: 8px;\n        padding: 25px;\n        color: #24292e;\n        margin: 15px 0;\n    }\n    .header-box {\n        background-color: #24292e;\n        color: #ffffff;\n        padding: 15px;\n        border-radius: 6px 6px 0 0;\n        margin: -25px -25px 20px -25px;\n        text-align: center;\n    }\n    .header-box h2 {\n        margin: 0;\n        font-size: 1.5em;\n        text-transform: uppercase;\n        letter-spacing: 1px;\n    }\n    .intro-text {\n        font-size: 1.1em;\n        margin-bottom: 20px;\n    }\n    .badge {\n        background-color: #0366d6;\n        color: white;\n        padding: 3px 8px;\n        border-radius: 4px;\n        font-family: monospace;\n        font-weight: bold;\n    }\n    .grid-reasons {\n        display: grid;\n        grid-template-columns: 1fr 1fr;\n        gap: 20px;\n        margin-top: 20px;\n    }\n    .reason-card {\n        background: #ffffff;\n        border: 1px solid #e1e4e8;\n        padding: 15px;\n        border-radius: 6px;\n        box-shadow: 0 2px 4px rgba(0,0,0,0.05);\n    }\n    .reason-card h4 {\n        margin-top: 0;\n        color: #0366d6;\n        border-bottom: 1px solid #eaecef;\n        padding-bottom: 5px;\n    }\n    .footer-note {\n        margin-top: 25px;\n        padding: 10px;\n        border-top: 1px dashed #444d56;\n        font-style: italic;\n        text-align: center;\n        color: #586069;\n    }\n    @media (max-width: 600px) {\n        .grid-reasons { grid-template-columns: 1fr; }\n    }\n&lt;/style&gt;\n&lt;div class=\"flash-ctf-container\"&gt;\n&lt;div class=\"header-box\"&gt;\n&lt;h2&gt;Documentación técnica con GitHub&lt;/h2&gt;\n&lt;/div&gt;\n&lt;p class=\"intro-text\"&gt;Bienvenido a tu nueva misión, si decides aceptarla..&lt;/p&gt;\n&lt;p&gt;Para el producto final de nuestro proyecto &lt;strong&gt;\"Flash-CTF: El Laberinto de Metasploitable\"&lt;/strong&gt;, vamos a estandarizar la entrega de documentación utilizando la plataforma &lt;a href=\"https://github.com/\"&gt;&lt;span class=\"badge\" id=\"link_1\"&gt;GitHub&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;\n&lt;div class=\"recurso-card\"&gt;\n&lt;div class=\"recurso-main\"&gt;\n&lt;div class=\"recurso-info\"&gt;&lt;strong&gt;Plataforma de Despliegue: GitHub Pages&lt;/strong&gt;&lt;br /&gt;&lt;a href=\"https://github.com\" class=\"recurso-link\" target=\"_blank\" rel=\"noopener\"&gt;[Web Oficial]&lt;/a&gt;&lt;/div&gt;\n&lt;span class=\"licencia-tag\" style=\"background-color: #f1f8ff; color: #0550ae; border: 1px solid #0550ae;\"&gt;Copyright © GitHub Inc.&lt;/span&gt;&lt;/div&gt;\n&lt;div class=\"atribucion-box\" style=\"margin-top: 10px; font-size: 0.85em; background: #f6f8fa; padding: 10px; border-left: 3px solid #24292f;\"&gt;&lt;strong&gt;Atribución:&lt;/strong&gt; Servicio de hosting y control de versiones provisto por GitHub, Inc. El uso en este proyecto se acoge a los &lt;em&gt;Terms of Service&lt;/em&gt; de la plataforma para fines educativos y de difusión de Recursos Educativos Abiertos (REA).&lt;/div&gt;\n&lt;/div&gt;\n&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;\n&lt;p&gt;Cada grupo deberá crear un repositorio público o privado (con acceso para el profesor) donde se documenten, empleando lenguaje &lt;strong&gt;Markdown&lt;/strong&gt;, los vectores de ataque identificados, las evidencias gráficas de la intrusión y el código fuente de los scripts de fortificación desarrollados durante las sesiones.&lt;/p&gt;\n&lt;h3&gt;¿Por qué hacerlo así es valioso?&lt;/h3&gt;\n&lt;div class=\"grid-reasons\"&gt;\n&lt;div class=\"reason-card\"&gt;\n&lt;h4&gt;Profesionalización&lt;/h4&gt;\n&lt;p&gt;En el sector de la ciberseguridad y la administración de sistemas, el control de versiones con Git es un estándar crítico. El objetivo es que el resultado no sea un simple PDF estático, sino un recurso digital vivo que forme parte de vuestro portafolio profesional.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"reason-card\"&gt;\n&lt;h4&gt;Versatilidad y Entorno&lt;/h4&gt;\n&lt;p&gt;Al ser una solución basada en web, eliminamos dependencias de hardware específico. Solo se requiere un navegador y acceso a red, integrándose perfectamente con la configuración de nuestros laboratorios locales.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"reason-card\"&gt;\n&lt;h4&gt;Competencia Técnica&lt;/h4&gt;\n&lt;p&gt;Como alumnos de 2º de ASIR, ya domináis la interfaz de comandos y la gestión de sistemas. El uso de repositorios es el paso lógico para consolidar vuestra competencia digital avanzada.&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"reason-card\"&gt;\n&lt;h4&gt;Accesibilidad y Trabajo en Red&lt;/h4&gt;\n&lt;p&gt;GitHub facilita el flujo colaborativo asíncrono. Permite que cada miembro del equipo contribuya según sus fortalezas y garantiza que el trabajo sea accesible desde cualquier ubicación si necesitáis complementar el tiempo de taller.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"footer-note\"&gt;Recordad que la calidad de la documentación técnica es tan importante como el éxito del exploit.&lt;/div&gt;\n&lt;/div&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20260408140738LQMEOK</odePageId><odeParentPageId/><pageName>4. Herramientas de curación (5.1)</pageName><odeNavStructureOrder>5</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>4. Herramientas de curación (5.1)</value></odeNavStructureProperty><odeNavStructureProperty><key>hidePageTitle</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>4. Herramientas de curación (5.1)</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>highlight</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260408140738LQMEOK</odePageId><odeBlockId>20260408140738BOHJZK</odeBlockId><blockName>Herramientas de curación de contenidos (Tarea 5.1), tanto la diseñada para el docente, como la destinada al alumnado.</blockName><iconName/><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260408140738LQMEOK</odePageId><odeBlockId>20260408140738BOHJZK</odeBlockId><odeIdeviceId>20260407124906670G27</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;strong&gt;Contenidos curados para el alumnado&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;(Usando Google - Notebook LM)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;embed width="1200" height="600" src="{{context_path}}/20260407124906670G27/5.1_Herramientas_labor_docente.pdf" type="application/pdf"&gt;&lt;/p&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20260407124906670G27","textInfoDurationInput":"","textInfoDurationTextInput":"Duration","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Grouping","textTextarea":"&lt;p&gt;&lt;strong&gt;Contenidos curados para el alumnado&lt;/strong&gt;&lt;strong&gt; (Usando Google - Notebook LM)&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;br /&gt;&lt;/p&gt;\n&lt;p&gt;&lt;embed width=\"1200\" height=\"600\" src=\"{{context_path}}/20260407124906670G27/5.1_Herramientas_labor_docente.pdf\" type=\"application/pdf\"&gt;&lt;/embed&gt;&lt;/p&gt;","textFeedbackInput":"Show Feedback","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure><odePagStructure><odePageId>20260408140738LQMEOK</odePageId><odeBlockId>20260408140738ZHHFXR</odeBlockId><blockName>Ecosistema Digital Docente</blockName><iconName/><odePagStructureOrder>2</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260408140738LQMEOK</odePageId><odeBlockId>20260408140738ZHHFXR</odeBlockId><odeIdeviceId>20260407125022927WFE</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;img src="{{context_path}}/20260407125022927WFE/5.1_Herramientas_labor_docente_1.png" title="Curación de contenido con NotebookLM" width="1366" height="762" alt="En esta recopilación muestro las herramientas que utilizo diariamente para la gestión de aula, creación de materiales y, sobre todo, para mi actualización permanente en el sector de la ciberseguridad, manteniendo una actitud proactiva en la localización de nuevos conocimientos y materiales. "&gt;&lt;/p&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20260407125022927WFE","textInfoDurationInput":"","textInfoDurationTextInput":"Duration","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Grouping","textTextarea":"&lt;p&gt;&lt;img src=\"{{context_path}}/20260407125022927WFE/5.1_Herramientas_labor_docente_1.png\" title=\"Curación de contenido con NotebookLM\" width=\"1366\" height=\"762\" alt=\"En esta recopilación muestro las herramientas que utilizo diariamente para la gestión de aula, creación de materiales y, sobre todo, para mi actualización permanente en el sector de la ciberseguridad, manteniendo una actitud proactiva en la localización de nuevos conocimientos y materiales. \" /&gt;&lt;/p&gt;","textFeedbackInput":"Show Feedback","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure><odePagStructure><odePageId>20260408140738LQMEOK</odePageId><odeBlockId>20260408140738KRGSYW</odeBlockId><blockName>Otro formato de presentación más convencional&amp;nbsp; &amp;nbsp;(formato Web habitual)</blockName><iconName/><odePagStructureOrder>3</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260408140738LQMEOK</odePageId><odeBlockId>20260408140738KRGSYW</odeBlockId><odeIdeviceId>20260407130706071Z6E</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;style&gt;
+    /* Estética técnica profesional para eXeLearning */
+    .mi-curacion-asir-legal {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        padding: 25px;
+        border-radius: 10px;
+        margin: 15px 0;
+        box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+    }
+    .mi-curacion-asir-legal h1 {
+        background: #2c3e50;
+        color: #ffffff !important;
+        padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+        margin-bottom: 30px;
+        font-size: 1.8em;
+    }
+    .mi-curacion-asir-legal h2 {
+        color: #2980b9 !important;
+        border-bottom: 3px solid #2980b9;
+        padding-bottom: 8px;
+        margin-top: 40px;
+        font-size: 1.5em;
+    }
+    .mi-curacion-asir-legal .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .mi-curacion-asir-legal .recurso-card {
+        background: #ffffff;
+        border: 1px solid #e1e1e1;
+        padding: 18px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .mi-curacion-asir-legal h3 {
+        color: #444;
+        margin: 0 0 10px 0;
+        font-size: 1.1em;
+        border-left: 4px solid #3498db;
+        padding-left: 10px;
+    }
+    .mi-curacion-asir-legal .atribucion {
+        background: #f1f1f1;
+        font-size: 0.8em;
+        padding: 8px;
+        border-radius: 4px;
+        margin-top: 15px;
+        color: #666;
+    }
+    .licencia-tag {
+        font-weight: bold;
+        color: #27ae60;
+    }
+    .mi-curacion-asir-legal .btn-link {
+        display: inline-block;
+        background: #3498db;
+        color: #fff !important;
+        padding: 8px 15px;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-size: 0.9em;
+        text-align: center;
+        text-decoration: none;
+    }
+&lt;/style&gt;
+&lt;div class="mi-curacion-asir-legal"&gt;
+&lt;h1&gt;Repositorio de Recursos: Proyecto &amp; Gestión Docente&lt;/h1&gt;
+&lt;p style="text-align: center; color: #666;"&gt;Cumplimiento de Propiedad Intelectual y Curación de Contenidos (CDD B2)&lt;/p&gt;
+&lt;h2&gt;Parte 1: Curación para el Alumnado (Flash-CTF)&lt;/h2&gt;
+&lt;div class="grid-container"&gt;
+&lt;div class="recurso-card"&gt;
+&lt;div&gt;
+&lt;h3&gt;Vídeo Tutorial: Nmap&lt;/h3&gt;
+&lt;p&gt;Uso básico de Nmap y enumeración de servicios para la fase inicial del CTF.&lt;/p&gt;
+&lt;a href="https://www.youtube.com/watch?v=m_0E6aBeuQU" target="_blank" class="btn-link" rel="noopener"&gt;Ver en YouTube&lt;/a&gt;&lt;/div&gt;
+&lt;div class="atribucion"&gt;&lt;b&gt;Autor:&lt;/b&gt; S4vitar (YouTube)&lt;br&gt;&lt;b&gt;Licencia:&lt;/b&gt; Estándar de YouTube (Acceso gratuito)&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="recurso-card"&gt;
+&lt;div&gt;
+&lt;h3&gt;Guía Metasploitable 2&lt;/h3&gt;
+&lt;p&gt;Documentación oficial sobre servicios vulnerables y vectores de explotación.&lt;/p&gt;
+&lt;a href="https://docs.rapid7.com/metasploit/metasploitable-2-exploitability-guide/" target="_blank" class="btn-link" rel="noopener"&gt;Documentación Rapid7&lt;/a&gt;&lt;/div&gt;
+&lt;div class="atribucion"&gt;&lt;b&gt;Autor:&lt;/b&gt; Rapid7 (Metasploit Team)&lt;br&gt;&lt;b&gt;Licencia:&lt;/b&gt; &lt;span class="licencia-tag"&gt;Copyright Rapid7 (Uso Educativo)&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="recurso-card"&gt;
+&lt;div&gt;
+&lt;h3&gt;Sintaxis Markdown&lt;/h3&gt;
+&lt;p&gt;Referencia para la redacción del write-up profesional en GitHub.&lt;/p&gt;
+&lt;a href="https://tutorialmarkdown.com/sintaxis" target="_blank" class="btn-link" rel="noopener"&gt;Referencia Markdown&lt;/a&gt;&lt;/div&gt;
+&lt;div class="atribucion"&gt;&lt;b&gt;Autor:&lt;/b&gt; TutorialMarkdown.com&lt;br&gt;&lt;b&gt;Licencia:&lt;/b&gt; &lt;span class="licencia-tag"&gt;CC BY-NC 4.0&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="recurso-card"&gt;
+&lt;div&gt;
+&lt;h3&gt;Escalada de Privilegios&lt;/h3&gt;
+&lt;p&gt;Metodología técnica para la post-explotación en sistemas Linux.&lt;/p&gt;
+&lt;a href="https://csirt.lacnic.net/advertencias-de-seguridad/escalada-de-privilegios-en-sistemas-basados-en-linux" target="_blank" class="btn-link" rel="noopener"&gt;Guía LACNIC&lt;/a&gt;&lt;/div&gt;
+&lt;div class="atribucion"&gt;&lt;b&gt;Autor:&lt;/b&gt; CSIRT LACNIC&lt;br&gt;&lt;b&gt;Licencia:&lt;/b&gt; &lt;span class="licencia-tag"&gt;CC BY-NC-SA 4.0&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Parte 2: Curación para Gestión Docente&lt;/h2&gt;
+&lt;div class="grid-container"&gt;
+&lt;div class="recurso-card"&gt;
+&lt;div&gt;
+&lt;h3&gt;INCIBE: Alerta Temprana&lt;/h3&gt;
+&lt;p&gt;Feed de noticias y avisos técnicos para actualización del módulo de SAD.&lt;/p&gt;
+&lt;a href="https://incibe.es/incibe-cert/alerta-temprana/avisos" target="_blank" class="btn-link" rel="noopener"&gt;Avisos INCIBE&lt;/a&gt;&lt;/div&gt;
+&lt;div class="atribucion"&gt;&lt;b&gt;Autor:&lt;/b&gt; INCIBE-CERT&lt;br&gt;&lt;b&gt;Licencia:&lt;/b&gt; &lt;span class="licencia-tag"&gt;Aviso Legal INCIBE (Uso Abierto)&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="recurso-card"&gt;
+&lt;div&gt;
+&lt;h3&gt;Repositorios Procomún&lt;/h3&gt;
+&lt;p&gt;Acceso a SdA y Objetos de Aprendizaje integrados en la red INTEF.&lt;/p&gt;
+&lt;a href="https://procomun.intef.es/" target="_blank" class="btn-link" rel="noopener"&gt;Red Procomún&lt;/a&gt;&lt;/div&gt;
+&lt;div class="atribucion"&gt;&lt;b&gt;Autor:&lt;/b&gt; Ministerio de Educación (INTEF)&lt;br&gt;&lt;b&gt;Licencia:&lt;/b&gt; &lt;span class="licencia-tag"&gt;CC BY-SA 4.0&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20260407130706071Z6E","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;style&gt;\n    /* Estética técnica profesional para eXeLearning */\n    .mi-curacion-asir-legal {\n        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n        background-color: #f9f9f9;\n        color: #333;\n        padding: 25px;\n        border-radius: 10px;\n        margin: 15px 0;\n        box-shadow: inset 0 0 10px rgba(0,0,0,0.05);\n    }\n    .mi-curacion-asir-legal h1 {\n        background: #2c3e50;\n        color: #ffffff !important;\n        padding: 20px;\n        text-align: center;\n        border-radius: 8px;\n        margin-bottom: 30px;\n        font-size: 1.8em;\n    }\n    .mi-curacion-asir-legal h2 {\n        color: #2980b9 !important;\n        border-bottom: 3px solid #2980b9;\n        padding-bottom: 8px;\n        margin-top: 40px;\n        font-size: 1.5em;\n    }\n    .mi-curacion-asir-legal .grid-container {\n        display: grid;\n        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n        gap: 20px;\n        margin-top: 20px;\n    }\n    .mi-curacion-asir-legal .recurso-card {\n        background: #ffffff;\n        border: 1px solid #e1e1e1;\n        padding: 18px;\n        border-radius: 8px;\n        display: flex;\n        flex-direction: column;\n        justify-content: space-between;\n    }\n    .mi-curacion-asir-legal h3 {\n        color: #444;\n        margin: 0 0 10px 0;\n        font-size: 1.1em;\n        border-left: 4px solid #3498db;\n        padding-left: 10px;\n    }\n    .mi-curacion-asir-legal .atribucion {\n        background: #f1f1f1;\n        font-size: 0.8em;\n        padding: 8px;\n        border-radius: 4px;\n        margin-top: 15px;\n        color: #666;\n    }\n    .licencia-tag {\n        font-weight: bold;\n        color: #27ae60;\n    }\n    .mi-curacion-asir-legal .btn-link {\n        display: inline-block;\n        background: #3498db;\n        color: #fff !important;\n        padding: 8px 15px;\n        border-radius: 4px;\n        margin-top: 10px;\n        font-size: 0.9em;\n        text-align: center;\n        text-decoration: none;\n    }\n&lt;/style&gt;\n&lt;div class=\"mi-curacion-asir-legal\"&gt;\n&lt;h1&gt;Repositorio de Recursos: Proyecto &amp; Gestión Docente&lt;/h1&gt;\n&lt;p style=\"text-align: center; color: #666;\"&gt;Cumplimiento de Propiedad Intelectual y Curación de Contenidos (CDD B2)&lt;/p&gt;\n&lt;h2&gt;Parte 1: Curación para el Alumnado (Flash-CTF)&lt;/h2&gt;\n&lt;div class=\"grid-container\"&gt;\n&lt;div class=\"recurso-card\"&gt;\n&lt;div&gt;\n&lt;h3&gt;Vídeo Tutorial: Nmap&lt;/h3&gt;\n&lt;p&gt;Uso básico de Nmap y enumeración de servicios para la fase inicial del CTF.&lt;/p&gt;\n&lt;a href=\"https://www.youtube.com/watch?v=m_0E6aBeuQU\" target=\"_blank\" class=\"btn-link\" rel=\"noopener\"&gt;Ver en YouTube&lt;/a&gt;&lt;/div&gt;\n&lt;div class=\"atribucion\"&gt;&lt;b&gt;Autor:&lt;/b&gt; S4vitar (YouTube)&lt;br /&gt;&lt;b&gt;Licencia:&lt;/b&gt; Estándar de YouTube (Acceso gratuito)&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"recurso-card\"&gt;\n&lt;div&gt;\n&lt;h3&gt;Guía Metasploitable 2&lt;/h3&gt;\n&lt;p&gt;Documentación oficial sobre servicios vulnerables y vectores de explotación.&lt;/p&gt;\n&lt;a href=\"https://docs.rapid7.com/metasploit/metasploitable-2-exploitability-guide/\" target=\"_blank\" class=\"btn-link\" rel=\"noopener\"&gt;Documentación Rapid7&lt;/a&gt;&lt;/div&gt;\n&lt;div class=\"atribucion\"&gt;&lt;b&gt;Autor:&lt;/b&gt; Rapid7 (Metasploit Team)&lt;br /&gt;&lt;b&gt;Licencia:&lt;/b&gt; &lt;span class=\"licencia-tag\"&gt;Copyright Rapid7 (Uso Educativo)&lt;/span&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"recurso-card\"&gt;\n&lt;div&gt;\n&lt;h3&gt;Sintaxis Markdown&lt;/h3&gt;\n&lt;p&gt;Referencia para la redacción del write-up profesional en GitHub.&lt;/p&gt;\n&lt;a href=\"https://tutorialmarkdown.com/sintaxis\" target=\"_blank\" class=\"btn-link\" rel=\"noopener\"&gt;Referencia Markdown&lt;/a&gt;&lt;/div&gt;\n&lt;div class=\"atribucion\"&gt;&lt;b&gt;Autor:&lt;/b&gt; TutorialMarkdown.com&lt;br /&gt;&lt;b&gt;Licencia:&lt;/b&gt; &lt;span class=\"licencia-tag\"&gt;CC BY-NC 4.0&lt;/span&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"recurso-card\"&gt;\n&lt;div&gt;\n&lt;h3&gt;Escalada de Privilegios&lt;/h3&gt;\n&lt;p&gt;Metodología técnica para la post-explotación en sistemas Linux.&lt;/p&gt;\n&lt;a href=\"https://csirt.lacnic.net/advertencias-de-seguridad/escalada-de-privilegios-en-sistemas-basados-en-linux\" target=\"_blank\" class=\"btn-link\" rel=\"noopener\"&gt;Guía LACNIC&lt;/a&gt;&lt;/div&gt;\n&lt;div class=\"atribucion\"&gt;&lt;b&gt;Autor:&lt;/b&gt; CSIRT LACNIC&lt;br /&gt;&lt;b&gt;Licencia:&lt;/b&gt; &lt;span class=\"licencia-tag\"&gt;CC BY-NC-SA 4.0&lt;/span&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;h2&gt;Parte 2: Curación para Gestión Docente&lt;/h2&gt;\n&lt;div class=\"grid-container\"&gt;\n&lt;div class=\"recurso-card\"&gt;\n&lt;div&gt;\n&lt;h3&gt;INCIBE: Alerta Temprana&lt;/h3&gt;\n&lt;p&gt;Feed de noticias y avisos técnicos para actualización del módulo de SAD.&lt;/p&gt;\n&lt;a href=\"https://incibe.es/incibe-cert/alerta-temprana/avisos\" target=\"_blank\" class=\"btn-link\" rel=\"noopener\"&gt;Avisos INCIBE&lt;/a&gt;&lt;/div&gt;\n&lt;div class=\"atribucion\"&gt;&lt;b&gt;Autor:&lt;/b&gt; INCIBE-CERT&lt;br /&gt;&lt;b&gt;Licencia:&lt;/b&gt; &lt;span class=\"licencia-tag\"&gt;Aviso Legal INCIBE (Uso Abierto)&lt;/span&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div class=\"recurso-card\"&gt;\n&lt;div&gt;\n&lt;h3&gt;Repositorios Procomún&lt;/h3&gt;\n&lt;p&gt;Acceso a SdA y Objetos de Aprendizaje integrados en la red INTEF.&lt;/p&gt;\n&lt;a href=\"https://procomun.intef.es/\" target=\"_blank\" class=\"btn-link\" rel=\"noopener\"&gt;Red Procomún&lt;/a&gt;&lt;/div&gt;\n&lt;div class=\"atribucion\"&gt;&lt;b&gt;Autor:&lt;/b&gt; Ministerio de Educación (INTEF)&lt;br /&gt;&lt;b&gt;Licencia:&lt;/b&gt; &lt;span class=\"licencia-tag\"&gt;CC BY-SA 4.0&lt;/span&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20260408140738YMBRGL</odePageId><odeParentPageId/><pageName>5. Línea temporal (7.1)</pageName><odeNavStructureOrder>6</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value>5. Línea temporal (7.1)</value></odeNavStructureProperty><odeNavStructureProperty><key>hidePageTitle</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>5. Línea temporal (7.1)</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>highlight</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260408140738YMBRGL</odePageId><odeBlockId>20260408140738RHMCAZ</odeBlockId><blockName>La línea temporal que presenta de forma organizada las actividades y tareas del proyecto (Tarea 7.1)</blockName><iconName/><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260408140738YMBRGL</odePageId><odeBlockId>20260408140738RHMCAZ</odeBlockId><odeIdeviceId>20260407132319266LR9</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;embed width="1200" height="600" src="{{context_path}}/20260407132319266LR9/7.1_Infographic_Timeline.pdf" type="application/pdf"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20260407132319266LR9","textInfoDurationInput":"","textInfoDurationTextInput":"Duration","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Grouping","textTextarea":"&lt;p&gt;&lt;embed width=\"1200\" height=\"600\" src=\"{{context_path}}/20260407132319266LR9/7.1_Infographic_Timeline.pdf\" type=\"application/pdf\"&gt;&lt;/embed&gt;&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;","textFeedbackInput":"Show Feedback","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20260408140738AYNAIE</odePageId><odeParentPageId/><pageName>6. Criterios de evaluación (6.1)</pageName><odeNavStructureOrder>7</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>hidePageTitle</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>6. Criterios de evaluación (6.1)</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>highlight</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260408140738AYNAIE</odePageId><odeBlockId>20260408140738PODUEJ</odeBlockId><blockName>Qué se evalúa de tu Proyecto</blockName><iconName/><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260408140738AYNAIE</odePageId><odeBlockId>20260408140738PODUEJ</odeBlockId><odeIdeviceId>20260407134106035UE7</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;p&gt;&lt;embed width="1200" height="600" src="{{context_path}}/20260407134106035UE7/6.1._Asociacin_a_CE.pdf" type="application/pdf"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"20260407134106035UE7","textInfoDurationInput":"","textInfoDurationTextInput":"Duration","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Grouping","textTextarea":"&lt;p&gt;&lt;embed width=\"1200\" height=\"600\" src=\"{{context_path}}/20260407134106035UE7/6.1._Asociacin_a_CE.pdf\" type=\"application/pdf\"&gt;&lt;/embed&gt;&lt;/p&gt;\n&lt;p&gt;&lt;/p&gt;","textFeedbackInput":"Show Feedback","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20260408140738FQAKYM</odePageId><odeParentPageId/><pageName>7. Instrumentos de evaluación (8.1)</pageName><odeNavStructureOrder>8</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>hidePageTitle</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>7. Instrumentos de evaluación (8.1)</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>highlight</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260408140738FQAKYM</odePageId><odeBlockId>20260408140738PHTDMD</odeBlockId><blockName>Cómo se evalúa tu Proyecto</blockName><iconName/><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260408140738FQAKYM</odePageId><odeBlockId>20260408140738PHTDMD</odeBlockId><odeIdeviceId>202604071344078196I8</odeIdeviceId><odeIdeviceTypeName>text</odeIdeviceTypeName><htmlView>&lt;div class="exe-text-template"&gt;&lt;div class="textIdeviceContent"&gt;
+            &lt;div class="exe-text-activity"&gt;
+                &lt;div&gt;&lt;style&gt;
+        /* Encapsulamiento de estilos para eXeLearning */
+        .evaluacion-asir-container {
+            font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+            color: #1a202c;
+            background-color: #ffffff;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 20px auto;
+            border: 1px solid #e2e8f0;
+        }
+
+        /* Cabecera Técnica */
+        .evaluacion-asir-container .header-tecnico {
+            background-color: #1a202c;
+            color: #ffffff !important;
+            padding: 50px 30px;
+            text-align: center;
+            border-bottom: 5px solid #2d3748;
+        }
+
+        .evaluacion-asir-container .header-tecnico h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 300;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #ffffff !important;
+        }
+
+        .evaluacion-asir-container .header-tecnico p {
+            margin: 15px 0 0;
+            font-size: 13px;
+            letter-spacing: 2px;
+            color: #a0aec0;
+            text-transform: uppercase;
+        }
+
+        /* Índice de navegación interna */
+        .evaluacion-asir-container .index-bar {
+            background-color: #f7fafc;
+            padding: 15px 30px;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 12px;
+            color: #4a5568;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Secciones de contenido */
+        .evaluacion-asir-container section {
+            padding: 40px;
+        }
+
+        .evaluacion-asir-container h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1a202c !important;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-left: 5px solid #1a202c;
+            padding-left: 20px;
+            margin: 40px 0 25px 0;
+        }
+
+        .evaluacion-asir-container h3 {
+            font-size: 15px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #edf2f7;
+        }
+
+        .evaluacion-asir-container p, .evaluacion-asir-container li {
+            font-size: 14px;
+            color: #4a5568;
+        }
+
+        .evaluacion-asir-container ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Tabla de Evaluación */
+        .evaluacion-asir-container .table-scroll {
+            overflow-x: auto;
+            margin: 30px 0;
+        }
+
+        .evaluacion-asir-container table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #e2e8f0;
+        }
+
+        .evaluacion-asir-container th {
+            background-color: #f8fafc;
+            color: #2d3748 !important;
+            font-size: 12px;
+            text-transform: uppercase;
+            padding: 15px;
+            border: 1px solid #e2e8f0;
+            text-align: center;
+        }
+
+        .evaluacion-asir-container td {
+            padding: 15px;
+            border: 1px solid #e2e8f0;
+            vertical-align: top;
+        }
+
+        .evaluacion-asir-container .col-criterio {
+            background-color: #fcfcfc;
+            font-weight: 600;
+            width: 25%;
+        }
+
+        .evaluacion-asir-container .tag-ra {
+            display: block;
+            font-size: 10px;
+            color: #718096;
+            margin-bottom: 5px;
+        }
+
+        /* Módulo de Acceso a Google Forms */
+        .evaluacion-asir-container .cta-forms {
+            background-color: #2d3748;
+            color: #ffffff;
+            padding: 50px;
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .evaluacion-asir-container .cta-forms p {
+            color: #cbd5e0;
+            margin-bottom: 25px;
+        }
+
+        .evaluacion-asir-container .btn-action {
+            display: inline-block;
+            border: 1px solid #ffffff;
+            color: #ffffff !important;
+            padding: 15px 35px;
+            text-decoration: none;
+            font-size: 13px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+        .evaluacion-asir-container .btn-action:hover {
+            background-color: #ffffff;
+            color: #1a202c !important;
+        }
+
+        /* Pie de Triangulación */
+        .evaluacion-asir-container .triangulacion-footer {
+            background-color: #f7fafc;
+            padding: 35px;
+            border-top: 1px solid #e2e8f0;
+            font-size: 13px;
+            color: #4a5568;
+        }
+    &lt;/style&gt;
+&lt;div class="evaluacion-asir-container"&gt;
+&lt;div class="header-tecnico"&gt;
+&lt;h1&gt;Instrumentos de Evaluación&lt;/h1&gt;
+&lt;p&gt;Proyecto Flash-CTF | Especialidad ASIR&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="index-bar"&gt;Instrumento A: Rúbrica Analítica &amp;nbsp;·&amp;nbsp; Instrumento B: Bitácora de Proceso ·&amp;nbsp; Tratamiento de Variables &amp;nbsp;·&amp;nbsp; Triangulación&lt;/div&gt;
+&lt;section&gt;
+&lt;p style="text-align: center; max-width: 750px; margin: 0 auto 40px auto; font-style: italic;"&gt;Evaluación de competencias técnicas y transversales mediante sistemas digitales para la obtención de retroalimentación inmediata.&lt;/p&gt;
+&lt;h2&gt;Instrumento A: Rúbrica Analítica de Producto Final (GitHub)&lt;/h2&gt;
+&lt;div class="content-wrapper"&gt;
+&lt;h3&gt;Objeto de Evaluación&lt;/h3&gt;
+&lt;p&gt;Se evalúa el repositorio de GitHub que contiene el Write-up técnico y los scripts de defensa, atendiendo a los siguientes bloques:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fase de Ataque:&lt;/strong&gt; Éxito y justificación técnica en la explotación (RA 2, CE d y RA 2, CE h).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fase de Defensa:&lt;/strong&gt; Eficacia del script de firewall generado (RA 4, CE d).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Documentación:&lt;/strong&gt; Calidad del informe en Markdown y ética profesional (RA 7, CE g).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Temporalización&lt;/h3&gt;
+&lt;p&gt;Evaluación sumativa aplicada de forma síncrona al finalizar la Fase 5 del proyecto.&lt;/p&gt;
+&lt;div class="table-scroll"&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Criterio / RA&lt;/th&gt;
+&lt;th&gt;Nivel Inicial (1)&lt;/th&gt;
+&lt;th&gt;Nivel Medio (2)&lt;/th&gt;
+&lt;th&gt;Nivel Avanzado (3)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="col-criterio"&gt;&lt;span class="tag-ra"&gt;RA 2 | CE h&lt;/span&gt; 1. Inventario (Nmap)&lt;/td&gt;
+&lt;td&gt;Incapacidad para identificar servicios o presencia de falsos positivos recurrentes.&lt;/td&gt;
+&lt;td&gt;Detección de la mayoría de servicios sin clasificación precisa de versiones.&lt;/td&gt;
+&lt;td&gt;Inventario exhaustivo y preciso de servicios, versiones y vulnerabilidades (CVE).&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="col-criterio"&gt;&lt;span class="tag-ra"&gt;RA 1 | CE c&lt;/span&gt; 2. Clasificación de Riesgos&lt;/td&gt;
+&lt;td&gt;Identificación de vulnerabilidades sin análisis de criticidad u origen.&lt;/td&gt;
+&lt;td&gt;Clasificación de vulnerabilidades principales con análisis descriptivo superficial.&lt;/td&gt;
+&lt;td&gt;Análisis crítico y tipificación técnica según origen y métricas CVSS.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="col-criterio"&gt;&lt;span class="tag-ra"&gt;RA 2 | CE d&lt;/span&gt; 3. Simulación de Intrusión&lt;/td&gt;
+&lt;td&gt;Fracaso en la ejecución de exploits o compromiso del sistema objetivo.&lt;/td&gt;
+&lt;td&gt;Ejecución de exploits mediante asistencia, sin comprensión de la anatomía del ataque.&lt;/td&gt;
+&lt;td&gt;Compromiso exitoso con justificación técnica del vector de ataque y post-explotación.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="col-criterio"&gt;&lt;span class="tag-ra"&gt;RA 4 | CE d&lt;/span&gt; 4. Fortificación (Firewall)&lt;/td&gt;
+&lt;td&gt;Ausencia de reglas de filtrado o configuración de red ineficaz.&lt;/td&gt;
+&lt;td&gt;Implementación de reglas básicas; el sistema mantiene vectores de exposición.&lt;/td&gt;
+&lt;td&gt;Configuración de firewall robusto y persistente que mitiga los ataques identificados.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="col-criterio"&gt;&lt;span class="tag-ra"&gt;RA 7 | CE g&lt;/span&gt; 5. Documentación y Ética&lt;/td&gt;
+&lt;td&gt;Informe carente de estructura, evidencias o uso de lenguaje técnico.&lt;/td&gt;
+&lt;td&gt;Documentación completa con imprecisiones en terminología técnica o principios éticos.&lt;/td&gt;
+&lt;td&gt;Write-up profesional en GitHub con uso experto de Markdown y evidencias detalladas.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h3&gt;Tratamiento de Datos y Validación&lt;/h3&gt;
+&lt;p&gt;La obtención de datos se realiza mediante la integración de rúbricas en Google Classroom. Se analiza la correlación entre la variable "Justificación Técnica" y el "Éxito del Exploit". En caso de detectarse ejecuciones mecánicas sin comprensión teórica, se procede a la validación de la práctica docente mediante sesiones de refuerzo técnico.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2&gt;Instrumento B: Bitácora Digital de Proceso (Forms)&lt;/h2&gt;
+&lt;div class="content-wrapper"&gt;
+&lt;h3&gt;Objeto de Evaluación&lt;/h3&gt;
+&lt;p&gt;Cuestionario individual diseñado para monitorizar el proceso de aprendizaje, la autonomía operativa y la gestión de incidentes técnicos mediante el uso de snapshots. Evalúa:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Capacidad de clasificación de vulnerabilidades (RA 1, CE c).&lt;/li&gt;
+&lt;li&gt;Gestión de la incertidumbre en entornos de intrusión y fortificación (RA 2, CE d y RA 4, CE d).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="cta-forms"&gt;
+&lt;h3 style="color: #ffffff; border: none; margin-bottom: 10px;"&gt;Acceso al Cuestionario de Troubleshooting&lt;/h3&gt;
+&lt;p&gt;Registro de actividad obligatorio tras la conclusión de las fases 1, 2, 3 y 4.&lt;/p&gt;
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSe2nwZYgsFIstd3dKOr34V7bHiGZh9vx3q0GLeBJFcoqLidHA/viewform?usp=header" target="_blank" class="btn-action" rel="noopener"&gt;Iniciar Formulario Digital&lt;/a&gt;&lt;/div&gt;
+&lt;h3&gt;Tratamiento de Datos y Triangulación&lt;/h3&gt;
+&lt;p&gt;Monitorización de la variable "Frecuencia de Snapshots" en relación con el "Tiempo de Resolución Autónoma". La detección de un alto volumen de reversiones de estado sin progreso técnico activa una alerta de bloqueo que requiere intervención pedagógica inmediata.&lt;/p&gt;
+&lt;/section&gt;
+&lt;div class="triangulacion-footer"&gt;&lt;strong&gt;Triangulación de Resultados&lt;/strong&gt;
+&lt;p style="margin-top: 10px;"&gt;Se ejecuta un análisis comparativo contrastando la Bitácora de Proceso con la Rúbrica de Producto Final. Este procedimiento permite discernir si un desempeño insuficiente deriva de una carencia de competencias técnicas o de una gestión ineficiente de los recursos disponibles, garantizando una retroalimentación personalizada y fundamentada en evidencias contrastadas.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p class="clearfix"&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</htmlView><jsonProperties>{"ideviceId":"202604071344078196I8","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"&lt;style&gt;\n        /* Encapsulamiento de estilos para eXeLearning */\n        .evaluacion-asir-container {\n            font-family: 'Segoe UI', Helvetica, Arial, sans-serif;\n            color: #1a202c;\n            background-color: #ffffff;\n            line-height: 1.6;\n            max-width: 1000px;\n            margin: 20px auto;\n            border: 1px solid #e2e8f0;\n        }\n\n        /* Cabecera Técnica */\n        .evaluacion-asir-container .header-tecnico {\n            background-color: #1a202c;\n            color: #ffffff !important;\n            padding: 50px 30px;\n            text-align: center;\n            border-bottom: 5px solid #2d3748;\n        }\n\n        .evaluacion-asir-container .header-tecnico h1 {\n            margin: 0;\n            font-size: 24px;\n            font-weight: 300;\n            letter-spacing: 3px;\n            text-transform: uppercase;\n            color: #ffffff !important;\n        }\n\n        .evaluacion-asir-container .header-tecnico p {\n            margin: 15px 0 0;\n            font-size: 13px;\n            letter-spacing: 2px;\n            color: #a0aec0;\n            text-transform: uppercase;\n        }\n\n        /* Índice de navegación interna */\n        .evaluacion-asir-container .index-bar {\n            background-color: #f7fafc;\n            padding: 15px 30px;\n            border-bottom: 1px solid #e2e8f0;\n            font-size: 12px;\n            color: #4a5568;\n            text-transform: uppercase;\n            letter-spacing: 1px;\n        }\n\n        /* Secciones de contenido */\n        .evaluacion-asir-container section {\n            padding: 40px;\n        }\n\n        .evaluacion-asir-container h2 {\n            font-size: 18px;\n            font-weight: 700;\n            color: #1a202c !important;\n            text-transform: uppercase;\n            letter-spacing: 1px;\n            border-left: 5px solid #1a202c;\n            padding-left: 20px;\n            margin: 40px 0 25px 0;\n        }\n\n        .evaluacion-asir-container h3 {\n            font-size: 15px;\n            font-weight: 600;\n            color: #2d3748;\n            margin-bottom: 15px;\n            padding-bottom: 5px;\n            border-bottom: 1px solid #edf2f7;\n        }\n\n        .evaluacion-asir-container p, .evaluacion-asir-container li {\n            font-size: 14px;\n            color: #4a5568;\n        }\n\n        .evaluacion-asir-container ul {\n            padding-left: 20px;\n            margin-bottom: 20px;\n        }\n\n        /* Tabla de Evaluación */\n        .evaluacion-asir-container .table-scroll {\n            overflow-x: auto;\n            margin: 30px 0;\n        }\n\n        .evaluacion-asir-container table {\n            width: 100%;\n            border-collapse: collapse;\n            border: 1px solid #e2e8f0;\n        }\n\n        .evaluacion-asir-container th {\n            background-color: #f8fafc;\n            color: #2d3748 !important;\n            font-size: 12px;\n            text-transform: uppercase;\n            padding: 15px;\n            border: 1px solid #e2e8f0;\n            text-align: center;\n        }\n\n        .evaluacion-asir-container td {\n            padding: 15px;\n            border: 1px solid #e2e8f0;\n            vertical-align: top;\n        }\n\n        .evaluacion-asir-container .col-criterio {\n            background-color: #fcfcfc;\n            font-weight: 600;\n            width: 25%;\n        }\n\n        .evaluacion-asir-container .tag-ra {\n            display: block;\n            font-size: 10px;\n            color: #718096;\n            margin-bottom: 5px;\n        }\n\n        /* Módulo de Acceso a Google Forms */\n        .evaluacion-asir-container .cta-forms {\n            background-color: #2d3748;\n            color: #ffffff;\n            padding: 50px;\n            text-align: center;\n            margin: 40px 0;\n        }\n\n        .evaluacion-asir-container .cta-forms p {\n            color: #cbd5e0;\n            margin-bottom: 25px;\n        }\n\n        .evaluacion-asir-container .btn-action {\n            display: inline-block;\n            border: 1px solid #ffffff;\n            color: #ffffff !important;\n            padding: 15px 35px;\n            text-decoration: none;\n            font-size: 13px;\n            letter-spacing: 2px;\n            text-transform: uppercase;\n            transition: all 0.3s ease;\n        }\n\n        .evaluacion-asir-container .btn-action:hover {\n            background-color: #ffffff;\n            color: #1a202c !important;\n        }\n\n        /* Pie de Triangulación */\n        .evaluacion-asir-container .triangulacion-footer {\n            background-color: #f7fafc;\n            padding: 35px;\n            border-top: 1px solid #e2e8f0;\n            font-size: 13px;\n            color: #4a5568;\n        }\n    &lt;/style&gt;\n&lt;div class=\"evaluacion-asir-container\"&gt;\n&lt;div class=\"header-tecnico\"&gt;\n&lt;h1&gt;Instrumentos de Evaluación&lt;/h1&gt;\n&lt;p&gt;Proyecto Flash-CTF | Especialidad ASIR&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\"index-bar\"&gt;Instrumento A: Rúbrica Analítica  ·  Instrumento B: Bitácora de Proceso ·  Tratamiento de Variables  ·  Triangulación&lt;/div&gt;\n&lt;section&gt;\n&lt;p style=\"text-align: center; max-width: 750px; margin: 0 auto 40px auto; font-style: italic;\"&gt;Evaluación de competencias técnicas y transversales mediante sistemas digitales para la obtención de retroalimentación inmediata.&lt;/p&gt;\n&lt;h2&gt;Instrumento A: Rúbrica Analítica de Producto Final (GitHub)&lt;/h2&gt;\n&lt;div class=\"content-wrapper\"&gt;\n&lt;h3&gt;Objeto de Evaluación&lt;/h3&gt;\n&lt;p&gt;Se evalúa el repositorio de GitHub que contiene el Write-up técnico y los scripts de defensa, atendiendo a los siguientes bloques:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Fase de Ataque:&lt;/strong&gt; Éxito y justificación técnica en la explotación (RA 2, CE d y RA 2, CE h).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Fase de Defensa:&lt;/strong&gt; Eficacia del script de firewall generado (RA 4, CE d).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Documentación:&lt;/strong&gt; Calidad del informe en Markdown y ética profesional (RA 7, CE g).&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3&gt;Temporalización&lt;/h3&gt;\n&lt;p&gt;Evaluación sumativa aplicada de forma síncrona al finalizar la Fase 5 del proyecto.&lt;/p&gt;\n&lt;div class=\"table-scroll\"&gt;\n&lt;table&gt;\n&lt;thead&gt;\n&lt;tr&gt;\n&lt;th&gt;Criterio / RA&lt;/th&gt;\n&lt;th&gt;Nivel Inicial (1)&lt;/th&gt;\n&lt;th&gt;Nivel Medio (2)&lt;/th&gt;\n&lt;th&gt;Nivel Avanzado (3)&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td class=\"col-criterio\"&gt;&lt;span class=\"tag-ra\"&gt;RA 2 | CE h&lt;/span&gt; 1. Inventario (Nmap)&lt;/td&gt;\n&lt;td&gt;Incapacidad para identificar servicios o presencia de falsos positivos recurrentes.&lt;/td&gt;\n&lt;td&gt;Detección de la mayoría de servicios sin clasificación precisa de versiones.&lt;/td&gt;\n&lt;td&gt;Inventario exhaustivo y preciso de servicios, versiones y vulnerabilidades (CVE).&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td class=\"col-criterio\"&gt;&lt;span class=\"tag-ra\"&gt;RA 1 | CE c&lt;/span&gt; 2. Clasificación de Riesgos&lt;/td&gt;\n&lt;td&gt;Identificación de vulnerabilidades sin análisis de criticidad u origen.&lt;/td&gt;\n&lt;td&gt;Clasificación de vulnerabilidades principales con análisis descriptivo superficial.&lt;/td&gt;\n&lt;td&gt;Análisis crítico y tipificación técnica según origen y métricas CVSS.&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td class=\"col-criterio\"&gt;&lt;span class=\"tag-ra\"&gt;RA 2 | CE d&lt;/span&gt; 3. Simulación de Intrusión&lt;/td&gt;\n&lt;td&gt;Fracaso en la ejecución de exploits o compromiso del sistema objetivo.&lt;/td&gt;\n&lt;td&gt;Ejecución de exploits mediante asistencia, sin comprensión de la anatomía del ataque.&lt;/td&gt;\n&lt;td&gt;Compromiso exitoso con justificación técnica del vector de ataque y post-explotación.&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td class=\"col-criterio\"&gt;&lt;span class=\"tag-ra\"&gt;RA 4 | CE d&lt;/span&gt; 4. Fortificación (Firewall)&lt;/td&gt;\n&lt;td&gt;Ausencia de reglas de filtrado o configuración de red ineficaz.&lt;/td&gt;\n&lt;td&gt;Implementación de reglas básicas; el sistema mantiene vectores de exposición.&lt;/td&gt;\n&lt;td&gt;Configuración de firewall robusto y persistente que mitiga los ataques identificados.&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td class=\"col-criterio\"&gt;&lt;span class=\"tag-ra\"&gt;RA 7 | CE g&lt;/span&gt; 5. Documentación y Ética&lt;/td&gt;\n&lt;td&gt;Informe carente de estructura, evidencias o uso de lenguaje técnico.&lt;/td&gt;\n&lt;td&gt;Documentación completa con imprecisiones en terminología técnica o principios éticos.&lt;/td&gt;\n&lt;td&gt;Write-up profesional en GitHub con uso experto de Markdown y evidencias detalladas.&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;/div&gt;\n&lt;h3&gt;Tratamiento de Datos y Validación&lt;/h3&gt;\n&lt;p&gt;La obtención de datos se realiza mediante la integración de rúbricas en Google Classroom. Se analiza la correlación entre la variable \"Justificación Técnica\" y el \"Éxito del Exploit\". En caso de detectarse ejecuciones mecánicas sin comprensión teórica, se procede a la validación de la práctica docente mediante sesiones de refuerzo técnico.&lt;/p&gt;\n&lt;/div&gt;\n&lt;h2&gt;Instrumento B: Bitácora Digital de Proceso (Forms)&lt;/h2&gt;\n&lt;div class=\"content-wrapper\"&gt;\n&lt;h3&gt;Objeto de Evaluación&lt;/h3&gt;\n&lt;p&gt;Cuestionario individual diseñado para monitorizar el proceso de aprendizaje, la autonomía operativa y la gestión de incidentes técnicos mediante el uso de snapshots. Evalúa:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Capacidad de clasificación de vulnerabilidades (RA 1, CE c).&lt;/li&gt;\n&lt;li&gt;Gestión de la incertidumbre en entornos de intrusión y fortificación (RA 2, CE d y RA 4, CE d).&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;div class=\"cta-forms\"&gt;\n&lt;h3 style=\"color: #ffffff; border: none; margin-bottom: 10px;\"&gt;Acceso al Cuestionario de Troubleshooting&lt;/h3&gt;\n&lt;p&gt;Registro de actividad obligatorio tras la conclusión de las fases 1, 2, 3 y 4.&lt;/p&gt;\n&lt;a href=\"https://docs.google.com/forms/d/e/1FAIpQLSe2nwZYgsFIstd3dKOr34V7bHiGZh9vx3q0GLeBJFcoqLidHA/viewform?usp=header\" target=\"_blank\" class=\"btn-action\" rel=\"noopener\"&gt;Iniciar Formulario Digital&lt;/a&gt;&lt;/div&gt;\n&lt;h3&gt;Tratamiento de Datos y Triangulación&lt;/h3&gt;\n&lt;p&gt;Monitorización de la variable \"Frecuencia de Snapshots\" en relación con el \"Tiempo de Resolución Autónoma\". La detección de un alto volumen de reversiones de estado sin progreso técnico activa una alerta de bloqueo que requiere intervención pedagógica inmediata.&lt;/p&gt;\n&lt;/section&gt;\n&lt;div class=\"triangulacion-footer\"&gt;&lt;strong&gt;Triangulación de Resultados&lt;/strong&gt;\n&lt;p style=\"margin-top: 10px;\"&gt;Se ejecuta un análisis comparativo contrastando la Bitácora de Proceso con la Rúbrica de Producto Final. Este procedimiento permite discernir si un desempeño insuficiente deriva de una carencia de competencias técnicas o de una gestión ineficiente de los recursos disponibles, garantizando una retroalimentación personalizada y fundamentada en evidencias contrastadas.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}</jsonProperties><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure><odeNavStructure><odePageId>20260408140738ARZVFM</odePageId><odeParentPageId/><pageName>Créditos</pageName><odeNavStructureOrder>9</odeNavStructureOrder><odeNavStructureProperties><odeNavStructureProperty><key>titleNode</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>hidePageTitle</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titleHtml</key><value/></odeNavStructureProperty><odeNavStructureProperty><key>editableInPage</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>titlePage</key><value>Créditos</value></odeNavStructureProperty><odeNavStructureProperty><key>visibility</key><value>true</value></odeNavStructureProperty><odeNavStructureProperty><key>highlight</key><value>false</value></odeNavStructureProperty><odeNavStructureProperty><key>description</key><value/></odeNavStructureProperty></odeNavStructureProperties><odePagStructures><odePagStructure><odePageId>20260408140738ARZVFM</odePageId><odeBlockId>20260408140738ZGDSXZ</odeBlockId><blockName>Descargar el archivo fuente</blockName><iconName/><odePagStructureOrder>1</odePagStructureOrder><odePagStructureProperties><odePagStructureProperty><key>visibility</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>teacherOnly</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>allowToggle</key><value>true</value></odePagStructureProperty><odePagStructureProperty><key>minimized</key><value>false</value></odePagStructureProperty><odePagStructureProperty><key>identifier</key><value/></odePagStructureProperty><odePagStructureProperty><key>cssClass</key><value/></odePagStructureProperty></odePagStructureProperties><odeComponents><odeComponent><odePageId>20260408140738ARZVFM</odePageId><odeBlockId>20260408140738ZGDSXZ</odeBlockId><odeIdeviceId>20260402141125426NQV</odeIdeviceId><odeIdeviceTypeName>download-source-file</odeIdeviceTypeName><htmlView>&lt;div class="exe-download-package-instructions"&gt;&lt;style&gt;
+    .metadata-container {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 1px solid #d1d9e0;
+        border-radius: 8px;
+        background-color: #ffffff;
+        margin: 20px 0;
+        overflow: hidden;
+    }
+    .metadata-header {
+        background-color: #24292e;
+        color: #ffffff;
+        padding: 12px 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 0.9em;
+        display: flex;
+        justify-content: space-between;
+    }
+    .metadata-body {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 180px 1fr;
+        gap: 10px 20px;
+    }
+    .metadata-label {
+        font-weight: bold;
+        color: #57606a;
+        font-size: 0.85em;
+        text-transform: uppercase;
+        padding-top: 5px;
+    }
+    .metadata-value {
+        color: #24292e;
+        font-size: 0.95em;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #f6f8fa;
+    }
+    .metadata-value:last-child {
+        border-bottom: none;
+    }
+    .tag-cloud {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .tag-item {
+        background-color: #ddf4ff;
+        color: #0969da;
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+    @media (max-width: 600px) {
+        .metadata-body { grid-template-columns: 1fr; }
+        .metadata-label { padding-bottom: 0; }
+    }
+&lt;/style&gt;
+&lt;div class="metadata-container"&gt;
+&lt;div class="metadata-header"&gt;&lt;span&gt;Ficha de Metadatos del Recurso&lt;/span&gt; &lt;span&gt;Estándar LOM-ES&lt;/span&gt;&lt;/div&gt;
+&lt;div class="metadata-body"&gt;
+&lt;div class="metadata-label"&gt;Título del Proyecto&lt;/div&gt;
+&lt;div class="metadata-value"&gt;&lt;strong&gt;Flash-CTF: El Laberinto de Metasploitable&lt;/strong&gt;&lt;/div&gt;
+&lt;div class="metadata-label"&gt;Descripción Técnica&lt;/div&gt;
+&lt;div class="metadata-value"&gt;Situación de Aprendizaje (SdA) basada en un entorno de entrenamiento técnico tipo Capture The Flag (CTF). &lt;br /&gt;El alumnado realiza una auditoría de seguridad sobre Metasploitable 2, cubriendo escaneo de servicios, explotación ética y fortificación (Hardening). &lt;br /&gt;Finaliza con documentación técnica en GitHub.&lt;/div&gt;
+&lt;div class="metadata-label"&gt;Contexto Educativo&lt;/div&gt;
+&lt;div class="metadata-value"&gt;2º curso CFGS Administración de Sistemas Informáticos en Red (ASIR)&lt;/div&gt;
+&lt;div class="metadata-label"&gt;Módulo Profesional&lt;/div&gt;
+&lt;div class="metadata-value"&gt;Seguridad y Alta Disponibilidad (SAD)&lt;/div&gt;
+&lt;div class="metadata-label"&gt;Objetivos Técnicos&lt;/div&gt;
+&lt;div class="metadata-value"&gt;Identificación de protocolos vulnerables, ejecución de vectores de ataque en entornos controlados, configuración de filtros de red y redacción técnica profesional mediante Markdown.&lt;/div&gt;
+&lt;div class="metadata-label"&gt;Palabras Clave&lt;/div&gt;
+&lt;div class="metadata-value"&gt;
+&lt;div class="tag-cloud"&gt;&lt;span class="tag-item"&gt;Ciberseguridad&lt;/span&gt; &lt;span class="tag-item"&gt;Pentesting&lt;/span&gt; &lt;span class="tag-item"&gt;Metasploitable&lt;/span&gt; &lt;span class="tag-item"&gt;Hardening&lt;/span&gt; &lt;span class="tag-item"&gt;GitHub&lt;/span&gt; &lt;span class="tag-item"&gt;Markdown&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="metadata-label"&gt;Autor y Licencia&lt;/div&gt;
+&lt;div class="metadata-value"&gt;José Carmelo Maturana | Creative Commons BY-SA 4.0&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;/div&gt;&lt;p class="exe-download-package-link"&gt;&lt;a download="exe-package:elp-name" href="exe-package:elp" style="background-color:#e60532;color:#ffffff;"&gt;Descargar el archivo .elpx&lt;/a&gt;&lt;/p&gt;</htmlView><jsonProperties/><odeComponentsOrder>1</odeComponentsOrder><odeComponentsProperties><odeComponentsProperty><key>visibility</key><value>true</value></odeComponentsProperty><odeComponentsProperty><key>teacherOnly</key><value>false</value></odeComponentsProperty><odeComponentsProperty><key>identifier</key><value/></odeComponentsProperty><odeComponentsProperty><key>cssClass</key><value/></odeComponentsProperty></odeComponentsProperties></odeComponent></odeComponents></odePagStructure></odePagStructures></odeNavStructure></odeNavStructures></ode>
