@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-node-20260420110402VWNPLU">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v3.0.2">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>1.1 Descripción del proyecto | Proyecto Flash_CTF</title>
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><script src="../libs/exe_atools/exe_atools.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="../libs/exe_atools/exe_atools.css">
+<script src="../idevices/text/text.js"> </script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css">
+<script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="author" content="José Carmelo Maturana">
+<meta name="description" content="Flash-CTF: El Laberinto de Metasploitable - Situación de Aprendizaje para 2º de ASIR sobre Hacking Ético y Seguridad.">
+<meta name="keywords" content="ASIR, Seguridad Informática, CTF, Metasploitable, GitHub, Educación">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet">
+<style>
+    /* Aplicar la fuente Inter al cuerpo y Roboto Mono a los códigos */
+    body { font-family: 'Inter', sans-serif !important; }
+    code, pre { font-family: 'Roboto Mono', monospace !important; }
+    
+    /* Pequeña mejora visual: selección de texto en color corporativo */
+    ::selection { background: #3498db; color: white; }
+</style>
+</head>
+<body class="exe-export exe-web-site" lang="es">
+<script>document.body.className+=" js"</script><div class="exe-content exe-export pre-js siteNav-hidden"> <nav id="siteNav"> <ul> <li> <a href="../index.html" class="main-node no-ch">Guía didáctica (6.1)</a>
+</li>
+<li> <a href="../html/%C3%8Dndice-de-contenidos.html" class="no-ch">Índice de contenidos</a>
+</li>
+<li> <a href="../html/1-presentacion-2-1.html" class="no-ch">1. Presentación (2.1)</a>
+</li>
+<li class="active"> <a href="../html/1-1-descripcion-del-proyecto.html" class="active no-ch">1.1 Descripción del proyecto</a>
+</li>
+<li> <a href="../html/1-2-ayuda.html" class="no-ch">1.2 Ayuda</a>
+</li>
+<li> <a href="../html/2-lopdgdd-2-3.html" class="no-ch">2. LOPDGDD (2.3)</a>
+</li>
+<li> <a href="../html/3-descripcion-del-producto-final-4-1.html" class="no-ch">3. Descripción del producto final (4.1)</a>
+</li>
+<li> <a href="../html/4-herramientas-de-curacion-5-1.html" class="no-ch">4. Herramientas de curación (5.1)</a>
+</li>
+<li> <a href="../html/5-linea-temporal-7-1.html" class="no-ch">5. Línea temporal (7.1)</a>
+</li>
+<li> <a href="../html/6-instrumentos-de-evaluacion-8-1.html" class="no-ch">6. Instrumentos de evaluación (8.1)</a>
+</li>
+<li> <a href="../html/creditos.html" class="no-ch">Créditos</a>
+</li>
+</ul></nav><main id="20260420110402VWNPLU" class="page"> <header id="header-20260420110402VWNPLU" class="main-header"> <div class="package-header">
+<h1 class="package-title">Proyecto Flash_CTF</h1>
+<p class="package-subtitle">Proyecto curso CDD B2</p>
+</div>
+<div class="page-header"><h2 class="page-title">1.1 Descripción del proyecto</h2></div></header><div id="page-content-20260420110402VWNPLU" class="page-content"> <article id="20260420110402HDTZTI" class="box"> <header class="box-head no-icon"> <h1 class="box-title">&lt;br&gt;</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="202604200959526512D7" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div><style>
+    .ctf-hub * { box-sizing: border-box; margin: 0; padding: 0; }
+    .ctf-hub {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #e0e0e0;
+        line-height: 1.7;
+        background: linear-gradient(135deg, #0a0e17 0%, #111927 50%, #0a0e17 100%);
+        padding: 30px 20px;
+        border-radius: 16px;
+    }
+
+    .ctf-header {
+        text-align: center;
+        padding: 40px 20px 30px;
+        margin-bottom: 40px;
+        background: linear-gradient(160deg, rgba(0,255,136,0.08) 0%, rgba(0,170,255,0.06) 100%);
+        border: 1px solid rgba(0,255,136,0.15);
+        border-radius: 16px;
+        position: relative;
+        overflow: hidden;
+    }
+    .ctf-header::before {
+        content: '';
+        position: absolute;
+        top: -2px; left: -2px; right: -2px; bottom: -2px;
+        background: linear-gradient(90deg, #00ff88, #00aaff, #aa00ff, #00ff88);
+        background-size: 300% 100%;
+        animation: borderGlow 6s linear infinite;
+        z-index: -1;
+        border-radius: 17px;
+        opacity: 0.4;
+    }
+    @keyframes borderGlow {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 300% 50%; }
+    }
+    .ctf-header h2 {
+        font-size: 2.2em;
+        font-weight: 800;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        background: linear-gradient(90deg, #00ff88, #00ccff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 8px;
+    }
+    .ctf-header .header-icon {
+        font-size: 2.6em;
+        margin-bottom: 10px;
+        display: block;
+        color: #00ff88;
+        font-weight: bold;
+        font-family: monospace;
+    }
+    .ctf-header p {
+        color: #8899aa;
+        font-size: 1.05em;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .ctf-banner {
+        width: 100%;
+        max-height: 280px;
+        object-fit: cover;
+        border-radius: 12px;
+        margin-bottom: 10px;
+        border: 1px solid rgba(0,255,136,0.1);
+        filter: brightness(0.85) saturate(1.1);
+    }
+    .img-credit-wrap { text-align: center; margin-bottom: 35px; }
+    .img-credit {
+        font-size: 0.7em;
+        color: #556;
+        padding: 4px 12px;
+        background: rgba(0,0,0,0.5);
+        display: inline-block;
+        border-radius: 0 0 8px 8px;
+    }
+
+    .progress-bar-track {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto 45px;
+        max-width: 700px;
+        position: relative;
+    }
+    .progress-bar-track::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 30px; right: 30px;
+        height: 3px;
+        background: #1e2a3a;
+        transform: translateY(-50%);
+        z-index: 0;
+    }
+    .pb-step {
+        width: 56px; height: 56px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 800;
+        font-size: 1.1em;
+        z-index: 1;
+        border: 3px solid;
+        position: relative;
+    }
+    .pb-step span { font-size: 0.55em; position: absolute; bottom: -20px; white-space: nowrap; font-weight: 600; }
+    .pb-s1 { background: #0a1a2e; border-color: #0088ff; color: #0088ff; }
+    .pb-s1 span { color: #0088ff; }
+    .pb-s2 { background: #0a1e15; border-color: #00cc66; color: #00cc66; }
+    .pb-s2 span { color: #00cc66; }
+    .pb-s3 { background: #1e0a15; border-color: #ff3366; color: #ff3366; }
+    .pb-s3 span { color: #ff3366; }
+    .pb-s4 { background: #1a0a2e; border-color: #aa66ff; color: #aa66ff; }
+    .pb-s4 span { color: #aa66ff; }
+
+    .fase {
+        border-radius: 14px;
+        padding: 30px 28px;
+        margin-bottom: 40px;
+        position: relative;
+        overflow: hidden;
+        border: 1px solid rgba(255,255,255,0.06);
+    }
+    .fase::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0;
+        width: 5px;
+        height: 100%;
+    }
+    .fase-1 { background: linear-gradient(170deg, rgba(0,100,255,0.1) 0%, rgba(10,14,23,0.95) 40%); }
+    .fase-1::before { background: linear-gradient(180deg, #0088ff, #004499); }
+    .fase-2 { background: linear-gradient(170deg, rgba(0,200,100,0.1) 0%, rgba(10,14,23,0.95) 40%); }
+    .fase-2::before { background: linear-gradient(180deg, #00cc66, #006633); }
+    .fase-3 { background: linear-gradient(170deg, rgba(255,50,100,0.1) 0%, rgba(10,14,23,0.95) 40%); }
+    .fase-3::before { background: linear-gradient(180deg, #ff3366, #990033); }
+    .fase-4 { background: linear-gradient(170deg, rgba(170,100,255,0.1) 0%, rgba(10,14,23,0.95) 40%); }
+    .fase-4::before { background: linear-gradient(180deg, #aa66ff, #6633aa); }
+
+    .fase-badge {
+        display: inline-block;
+        padding: 4px 14px;
+        border-radius: 20px;
+        font-size: 0.7em;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    .badge-1 { background: rgba(0,136,255,0.2); color: #4da6ff; border: 1px solid rgba(0,136,255,0.3); }
+    .badge-2 { background: rgba(0,204,102,0.2); color: #33dd88; border: 1px solid rgba(0,204,102,0.3); }
+    .badge-3 { background: rgba(255,51,102,0.2); color: #ff6699; border: 1px solid rgba(255,51,102,0.3); }
+    .badge-4 { background: rgba(170,102,255,0.2); color: #bb88ff; border: 1px solid rgba(170,102,255,0.3); }
+
+    .fase h3 { font-size: 1.5em; font-weight: 700; margin-bottom: 5px; }
+    .fase-1 h3 { color: #4da6ff; }
+    .fase-2 h3 { color: #33dd88; }
+    .fase-3 h3 { color: #ff6699; }
+    .fase-4 h3 { color: #bb88ff; }
+
+    .fase-objetivo {
+        font-size: 0.95em;
+        color: #8899aa;
+        margin-bottom: 20px;
+        padding-left: 18px;
+        border-left: 2px solid rgba(255,255,255,0.08);
+    }
+
+    .tareas-list { list-style: none; padding: 0; margin-bottom: 25px; }
+    .tareas-list li {
+        padding: 10px 15px 10px 42px;
+        margin-bottom: 8px;
+        background: rgba(255,255,255,0.03);
+        border-radius: 8px;
+        position: relative;
+        font-size: 0.93em;
+        border: 1px solid rgba(255,255,255,0.04);
+    }
+    .tareas-list li::before {
+        content: '>';
+        position: absolute;
+        left: 16px;
+        font-weight: bold;
+        font-size: 1.1em;
+        font-family: 'Consolas', 'Courier New', monospace;
+    }
+    .fase-1 .tareas-list li::before { color: #4da6ff; }
+    .fase-2 .tareas-list li::before { color: #33dd88; }
+    .fase-3 .tareas-list li::before { color: #ff6699; }
+    .fase-4 .tareas-list li::before { color: #bb88ff; }
+
+    .tareas-list li code {
+        background: rgba(0,255,136,0.1);
+        color: #00ff88;
+        padding: 2px 7px;
+        border-radius: 4px;
+        font-size: 0.9em;
+        font-family: 'Consolas', 'Fira Code', monospace;
+    }
+
+    .fase-img-box {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background: rgba(0,0,0,0.25);
+        border: 1px solid rgba(255,255,255,0.06);
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 25px;
+    }
+    .fase-img-box img { width: 120px; height: auto; border-radius: 8px; flex-shrink: 0; }
+    .fase-img-info { font-size: 0.75em; color: #778; line-height: 1.5; }
+    .fase-img-info strong { color: #99a; }
+
+    .recursos-titulo {
+        font-size: 0.75em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #556;
+        margin-bottom: 12px;
+        font-weight: 700;
+    }
+    .recursos-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        gap: 14px;
+    }
+
+    .r-card {
+        background: linear-gradient(145deg, rgba(20,30,48,0.9), rgba(10,14,23,0.95));
+        border: 1px solid rgba(255,255,255,0.07);
+        border-radius: 12px;
+        overflow: hidden;
+        transition: transform 0.2s, border-color 0.3s;
+        display: flex;
+        flex-direction: column;
+    }
+    .r-card:hover { transform: translateY(-3px); border-color: rgba(255,255,255,0.15); }
+
+    .r-thumb {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .r-body { padding: 16px; flex-grow: 1; display: flex; flex-direction: column; }
+
+    .r-tag {
+        display: inline-block;
+        padding: 2px 10px;
+        border-radius: 12px;
+        font-size: 0.65em;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+        align-self: flex-start;
+    }
+    .tag-doc { background: rgba(0,136,255,0.15); color: #4da6ff; }
+    .tag-video { background: rgba(255,50,50,0.15); color: #ff6666; }
+    .tag-tool { background: rgba(0,204,102,0.15); color: #33dd88; }
+    .tag-cheat { background: rgba(255,170,0,0.15); color: #ffaa33; }
+    .tag-community { background: rgba(170,102,255,0.15); color: #bb88ff; }
+
+    .r-title { font-weight: 700; font-size: 1.05em; color: #dde; margin-bottom: 6px; line-height: 1.3; }
+    .r-desc { font-size: 0.83em; color: #778; flex-grow: 1; margin-bottom: 12px; }
+    .r-meta {
+        font-size: 0.7em;
+        color: #556;
+        padding: 8px 10px;
+        background: rgba(0,0,0,0.3);
+        border-radius: 6px;
+        margin-bottom: 14px;
+        line-height: 1.6;
+    }
+    .r-meta strong { color: #889; }
+
+    .r-btn {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px 16px;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 0.85em;
+        letter-spacing: 0.5px;
+        transition: filter 0.2s;
+        color: #fff !important;
+    }
+    .r-btn:hover { filter: brightness(1.2); }
+    .btn-blue { background: linear-gradient(135deg, #0066cc, #0088ff); }
+    .btn-green { background: linear-gradient(135deg, #009955, #00cc66); }
+    .btn-red { background: linear-gradient(135deg, #cc2255, #ff3366); }
+    .btn-purple { background: linear-gradient(135deg, #7733bb, #aa66ff); }
+
+    .video-card { grid-column: 1 / -1; }
+    .video-wrapper {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        border-radius: 10px;
+        margin-bottom: 14px;
+        border: 1px solid rgba(255,255,255,0.05);
+    }
+    .video-wrapper iframe {
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        border: 0;
+    }
+
+    .tip-box {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        background: rgba(0,136,255,0.06);
+        border: 1px solid rgba(0,136,255,0.12);
+        border-radius: 10px;
+        padding: 14px 18px;
+        margin: 20px 0 5px;
+        font-size: 0.88em;
+        color: #8899aa;
+    }
+    .tip-icon {
+        flex-shrink: 0;
+        width: 28px; height: 28px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 900;
+        font-size: 0.85em;
+        font-family: 'Consolas', monospace;
+    }
+    .tip-icon-info { background: rgba(0,136,255,0.2); color: #4da6ff; }
+    .tip-icon-target { background: rgba(0,204,102,0.2); color: #33dd88; }
+    .tip-icon-warn { background: rgba(255,51,102,0.2); color: #ff6699; }
+    .tip-icon-pen { background: rgba(170,102,255,0.2); color: #bb88ff; }
+
+    @media (max-width: 600px) {
+        .ctf-hub { padding: 15px 10px; }
+        .fase { padding: 20px 16px; }
+        .ctf-header h2 { font-size: 1.5em; }
+        .fase-img-box { flex-direction: column; text-align: center; }
+        .recursos-grid { grid-template-columns: 1fr; }
+        .progress-bar-track { display: none; }
+    }
+</style>
+<div class="ctf-hub"><!-- HEADER -->
+<div class="ctf-header"><span class="header-icon">>_</span>
+<h2>Flash-CTF: Auditoria a Metasploitable 2</h2>
+<p>Tu mision: comprometer un servidor vulnerable siguiendo una metodologia profesional de pentesting. Sigue las 4 fases, documenta todo y demuestra que puedes ser un/a auditor/a de seguridad.</p>
+</div>
+<!-- BANNER --> <img class="ctf-banner" src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&q=80" alt="Pantalla con codigo binario estilo Matrix representando ciberseguridad">
+<div class="img-credit-wrap"><span class="img-credit">Imagen: Markus Spiske · Unsplash · Licencia Unsplash (libre para uso educativo y comercial)</span></div>
+<!-- PROGRESS BAR -->
+<div class="progress-bar-track">
+<div class="pb-step pb-s1">1<span>Preparacion</span></div>
+<div class="pb-step pb-s2">2<span>Escaneo</span></div>
+<div class="pb-step pb-s3">3<span>Explotacion</span></div>
+<div class="pb-step pb-s4">4<span>Reporte</span></div>
+</div>
+<!-- ============================== --> <!-- FASE 1                          --> <!-- ============================== -->
+<div class="fase fase-1"><span class="fase-badge badge-1">Fase 01</span>
+<h3>Preparacion y Contexto</h3>
+<p class="fase-objetivo">Levantar el laboratorio de pruebas y comprender la arquitectura del sistema objetivo.</p>
+<div class="fase-img-box"><img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=300&q=75" alt="Servidores de red en un data center">
+<div class="fase-img-info"><strong>Ilustracion:</strong> Infraestructura de red / Data center<br><strong>Autor:</strong> Taylor Vick<br><strong>Fuente:</strong> Unsplash<br><strong>Licencia:</strong> Unsplash License (uso libre educativo y comercial)</div>
+</div>
+<ul class="tareas-list">
+<li>Descargar e importar la maquina virtual en VirtualBox configurando la red en modo aislado (<strong>Host-Only</strong> o <strong>Red Interna</strong>).</li>
+<li>Verificar la conectividad TCP/IP entre tu maquina atacante (<code>Kali Linux</code>) y el servidor vulnerable.</li>
+<li>Leer la documentacion oficial de Rapid7 para entender que es Metasploitable 2 y por que se diseno con estos fallos de seguridad intencionados.</li>
+</ul>
+<div class="tip-box"><span class="tip-icon tip-icon-info">i</span> <span><strong>Consejo:</strong> Haz una instantanea (snapshot) de tu maquina virtual antes de empezar. Si algo sale mal, podras volver al estado inicial en segundos.</span></div>
+<div class="recursos-titulo">-- Recursos de la Fase 1 --</div>
+<div class="recursos-grid">
+<div class="r-card"><img class="r-thumb" src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=75" alt="Infraestructura de servidores">
+<div class="r-body"><span class="r-tag tag-doc">Documentacion</span>
+<div class="r-title">Manual Base -- Metasploitable 2</div>
+<div class="r-desc">Documentacion oficial sobre la instalacion, proposito y arquitectura del sistema vulnerable de Rapid7.</div>
+<div class="r-meta"><strong>Autor:</strong> Rapid7<br><strong>Licencia:</strong> © Rapid7 -- Uso educativo permitido<br><strong>Img:</strong> Taylor Vick · Unsplash License</div>
+<a href="https://docs.rapid7.com/metasploit/metasploitable-2/" target="_blank" rel="noopener" class="r-btn btn-blue">Abrir Documentacion</a></div>
+</div>
+<div class="r-card"><img class="r-thumb" src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=600&q=75" alt="Terminal de codigo">
+<div class="r-body"><span class="r-tag tag-doc">Documentacion</span>
+<div class="r-title">Guia de Explotabilidad</div>
+<div class="r-desc">Catalogo detallado con los principales vectores de ataque previstos en la maquina y como estan implementados.</div>
+<div class="r-meta"><strong>Autor:</strong> Rapid7<br><strong>Licencia:</strong> © Rapid7 -- Uso educativo permitido<br><strong>Img:</strong> Shahadat Rahman · Unsplash License</div>
+<a href="https://docs.rapid7.com/metasploit/metasploitable-2-exploitability-guide/" target="_blank" rel="noopener" class="r-btn btn-blue">Ver Guia Tecnica</a></div>
+</div>
+</div>
+</div>
+<!-- ============================== --> <!-- FASE 2                          --> <!-- ============================== -->
+<div class="fase fase-2"><span class="fase-badge badge-2">Fase 02</span>
+<h3>Reconocimiento y Enumeracion</h3>
+<p class="fase-objetivo">Cartografiar la superficie de ataque. Un buen escaneo es el 80% del exito.</p>
+<div class="fase-img-box"><img src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=300&q=75" alt="Terminal Linux con comandos de escaneo de red">
+<div class="fase-img-info"><strong>Ilustracion:</strong> Terminal de escaneo de red<br><strong>Autor:</strong> Gabriel Heinzer<br><strong>Fuente:</strong> Unsplash<br><strong>Licencia:</strong> Unsplash License (uso libre educativo y comercial)</div>
+</div>
+<ul class="tareas-list">
+<li>Ejecutar un escaneo de descubrimiento con <code>nmap -sn</code> para localizar la IP de Metasploitable en tu red.</li>
+<li>Utilizar <code>nmap -sV -sC -p-</code> para identificar <strong>todos</strong> los puertos abiertos, servicios y sus versiones exactas.</li>
+<li>Analizar los resultados buscando versiones de software obsoletas (como <code>vsftpd 2.3.4</code>, Samba antiguo o bases de datos sin contrasena).</li>
+</ul>
+<div class="tip-box"><span class="tip-icon tip-icon-target">*</span> <span><strong>Truco Pro:</strong> Guarda la salida de Nmap en varios formatos con <code>nmap -oA resultados</code>. Asi tendras ficheros .xml, .nmap y .gnmap para tu informe.</span></div>
+<div class="recursos-titulo">-- Recursos de la Fase 2 --</div>
+<div class="recursos-grid">
+<div class="r-card video-card">
+<div class="r-body"><span class="r-tag tag-video">Video Tutorial</span>
+<div class="r-title">Aprende Nmap: Escaneo Basico y Enumeracion de Servicios</div>
+<div class="r-desc">Video fundamental para entender como lanzar tus primeros escaneos y como interpretar cada linea de la salida de Nmap.</div>
+<div class="video-wrapper"><iframe src="https://www.youtube.com/embed/m_0E6aBeuQU" title="Tutorial Nmap - Escaneo y Enumeracion" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+<div class="r-meta"><strong>Autor:</strong> S4vitar (YouTube)<br><strong>Licencia:</strong> Licencia Estandar de YouTube</div>
+<a href="https://www.youtube.com/watch?v=m_0E6aBeuQU" target="_blank" rel="noopener" class="r-btn btn-green">Ver en YouTube</a></div>
+</div>
+</div>
+</div>
+<!-- ============================== --> <!-- FASE 3                          --> <!-- ============================== -->
+<div class="fase fase-3"><span class="fase-badge badge-3">Fase 03</span>
+<h3>Explotacion y Escalada de Privilegios</h3>
+<p class="fase-objetivo">Comprometer el sistema aprovechando las vulnerabilidades encontradas y obtener el control total (<code>root</code>).</p>
+<div class="fase-img-box"><img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=300&q=75" alt="Terminal con comandos de hacking etico">
+<div class="fase-img-info"><strong>Ilustracion:</strong> Terminal de hacking etico<br><strong>Autor:</strong> Towfiqu barbhuiya<br><strong>Fuente:</strong> Unsplash<br><strong>Licencia:</strong> Unsplash License (uso libre educativo y comercial)</div>
+</div>
+<ul class="tareas-list">
+<li>Buscar en Exploit-DB o con <code>searchsploit</code> los fallos asociados a las versiones detectadas en la fase anterior.</li>
+<li>Lanzar los ataques para obtener una <strong>shell inversa</strong> en el sistema objetivo.</li>
+<li>Una vez dentro, enumerar el sistema Linux internamente para <strong>escalar privilegios</strong> hasta ser administrador (<code>root</code>).</li>
+</ul>
+<div class="tip-box"><span class="tip-icon tip-icon-warn">!</span> <span><strong>Atencion:</strong> No te centres solo en un vector. Metasploitable tiene multiples puertas de entrada. Intenta al menos 2 formas distintas de entrar.</span></div>
+<div class="recursos-titulo">-- Recursos de la Fase 3 --</div>
+<div class="recursos-grid">
+<div class="r-card"><img class="r-thumb" src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&q=75" alt="Terminal Linux mostrando comandos">
+<div class="r-body"><span class="r-tag tag-cheat">Cheat Sheet</span>
+<div class="r-title">Escalada de Privilegios -- Lacnic CSIRT</div>
+<div class="r-desc">Hoja de comandos esenciales para identificar vectores de escalada de privilegios en sistemas basados en Linux.</div>
+<div class="r-meta"><strong>Autor:</strong> CSIRT Lacnic<br><strong>Licencia:</strong> © Lacnic -- Difusion de Ciberseguridad<br><strong>Img:</strong> Gabriel Heinzer · Unsplash License</div>
+<a href="https://csirt.lacnic.net/advertencias-de-seguridad/escalada-de-privilegios-en-sistemas-basados-en-linux" target="_blank" rel="noopener" class="r-btn btn-red">Abrir Cheat Sheet</a></div>
+</div>
+<div class="r-card"><img class="r-thumb" src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=75" alt="Candado digital sobre circuito">
+<div class="r-body"><span class="r-tag tag-cheat">Cheat Sheet</span>
+<div class="r-title">Ethical Hacking Cheatsheet -- PrivEsc Linux</div>
+<div class="r-desc">Recopilacion completa de tecnicas avanzadas de post-explotacion y escalada de privilegios en entornos Linux.</div>
+<div class="r-meta"><strong>Autor:</strong> Afsh4ck<br><strong>Licencia:</strong> CC BY-NC-ND (Atribucion-NoComercial)<br><strong>Img:</strong> Adi Goldstein · Unsplash License</div>
+<a href="https://afsh4ck.gitbook.io/ethical-hacking-cheatsheet/post-explotacion/escalada-de-privilegios/escalada-de-privilegios-en-linux" target="_blank" rel="noopener" class="r-btn btn-red">Ver Tecnicas</a></div>
+</div>
+<div class="r-card"><img class="r-thumb" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&q=75" alt="Personas compartiendo conocimiento tecnico">
+<div class="r-body"><span class="r-tag tag-community">Comunidad</span>
+<div class="r-title">VulnHub -- Write-ups de Metasploitable 2</div>
+<div class="r-desc">Foros y "Write-ups" de la comunidad. Inspirate leyendo como otros auditores resolvieron este mismo reto.</div>
+<div class="r-meta"><strong>Autor:</strong> Comunidad VulnHub<br><strong>Licencia:</strong> Dominio Publico / MIT<br><strong>Img:</strong> John Schnobrich · Unsplash License</div>
+<a href="https://www.vulnhub.com/entry/metasploitable-2,29/" target="_blank" rel="noopener" class="r-btn btn-red">Explorar VulnHub</a></div>
+</div>
+</div>
+</div>
+<!-- ============================== --> <!-- FASE 4                          --> <!-- ============================== -->
+<div class="fase fase-4"><span class="fase-badge badge-4">Fase 04</span>
+<h3>Reporte y Documentacion</h3>
+<p class="fase-objetivo">Demuestra tu profesionalidad redactando un informe tecnico estructurado en GitHub.</p>
+<div class="fase-img-box"><img src="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=300&q=75" alt="Logo de GitHub sobre fondo oscuro">
+<div class="fase-img-info"><strong>Ilustracion:</strong> GitHub -- Plataforma de documentacion<br><strong>Autor:</strong> Roman Synkevych<br><strong>Fuente:</strong> Unsplash<br><strong>Licencia:</strong> Unsplash License (uso libre educativo y comercial)</div>
+</div>
+<ul class="tareas-list">
+<li>Recopilar las capturas de pantalla de los comandos exitosos (escaneo de Nmap, shell como <code>root</code>, etc.).</li>
+<li>Crear un <strong>repositorio en GitHub</strong> para tu proyecto de auditoria.</li>
+<li>Redactar el archivo <code>README.md</code> explicando tu metodologia: que encontraste, como lo explotaste y como se podria solucionar cada vulnerabilidad.</li>
+</ul>
+<div class="tip-box"><span class="tip-icon tip-icon-pen">#</span> <span><strong>Recuerda:</strong> Un buen informe es lo que diferencia a un "script kiddie" de un profesional. Estructura, capturas y recomendaciones de mitigacion son clave.</span></div>
+<div class="recursos-titulo">-- Recursos de la Fase 4 --</div>
+<div class="recursos-grid">
+<div class="r-card"><img class="r-thumb" src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=600&q=75" alt="Editor de codigo mostrando sintaxis de programacion">
+<div class="r-body"><span class="r-tag tag-tool">Herramienta</span>
+<div class="r-title">Guia Completa de Sintaxis Markdown</div>
+<div class="r-desc">Aprende a dar formato profesional a tu informe: negritas, bloques de codigo, tablas, imagenes y mas. Imprescindible para tu README en GitHub.</div>
+<div class="r-meta"><strong>Autor:</strong> TutorialMarkdown.com<br><strong>Licencia:</strong> MIT License / Open Source<br><strong>Img:</strong> Florian Olivo · Unsplash License</div>
+<a href="https://tutorialmarkdown.com/sintaxis" target="_blank" rel="noopener" class="r-btn btn-purple">Aprender Markdown</a></div>
+</div>
+</div>
+</div>
+</div><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article>
+</div></main><div class="nav-buttons"> <a href="../html/1-presentacion-2-1.html" title="Anterior" class="nav-button nav-button-left"> <span>Anterior</span></a><a href="../html/1-2-ayuda.html" title="Siguiente" class="nav-button nav-button-right"> <span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">creative commons: attribution - share alike 4.0</a></p>
+</div>
+<div id="siteUserFooter"> <div><div style="border-top: 1px solid #ccc; padding-top: 15px; margin-top: 20px; text-align: center; font-family: 'Inter', sans-serif; font-size: 0.85em; color: #666;">
+    
+    
+    
+<p>
+        
+        Recurso Educativo Abierto diseñado para el Módulo de Seguridad y Alta Disponibilidad (2º ASIR).
+    <strong>Flash-CTF: El Laberinto de Metasploitable</strong><br></p>
+<p>
+        
+        Esta obra está bajo una licencia 
+        
+    <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" alt="Licencia Creative Commons" style="height: 25px; vertical-align: middle; margin-bottom: 5px;"><br><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank" rel="noopener" style="color: #0366d6; text-decoration: none;">
+            Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)
+        </a></p>
+<p style="font-size: 0.8em;">© 2024 - José Carmelo Maturana</p>
+</div></div>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(nueva ventana)</span></span></a></p>
+</body>
+</html>
